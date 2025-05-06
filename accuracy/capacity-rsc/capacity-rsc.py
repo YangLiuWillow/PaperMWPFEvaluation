@@ -5,7 +5,8 @@ import multiprocessing
 local_maximum_jobs: int = multiprocessing.cpu_count()
 
 this_dir = os.path.dirname(os.path.abspath(__file__))
-notebook_filepath = os.path.join(this_dir, "capacity-rsc.ipynb")
+assert os.path.abspath(__file__)[-3:] == ".py"
+notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
 decoder_vec = ["fb(max_tree_size=0)", "fb", "mwpf(c=0)", "mwpf(c=50)"]
 p_d_vec = [
@@ -34,7 +35,7 @@ for p, d_vec in p_d_vec:
 
 
 @arguably.command
-def main(target_precision: float = 0.04):
+def main(*, target_precision: float = 0.04):
     from qec_lego_bench.notebooks.pL_p_compare_decoders import (
         notebook_pL_p_compare_decoders,
     )
