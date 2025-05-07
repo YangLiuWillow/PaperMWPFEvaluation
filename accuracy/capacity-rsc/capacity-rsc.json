@@ -2038,31 +2038,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 14757,
+          "errors": 23633,
           "discards": 0,
-          "elapsed": 50371.35613534166
+          "elapsed": 80539.0718887676
         },
         "fb": {
-          "errors": 8475,
+          "errors": 13558,
           "discards": 0,
-          "elapsed": 49545.096799506784
+          "elapsed": 79439.00399817113
         },
         "mwpf(c=0)": {
-          "errors": 5650,
+          "errors": 8922,
           "discards": 0,
-          "elapsed": 110001.41154505893
+          "elapsed": 183475.59824763457
         },
         "mwpf(c=50)": {
-          "errors": 2182,
+          "errors": 3515,
           "discards": 0,
-          "elapsed": 233006.56864688842
+          "elapsed": 389348.5462135918
         }
       }
     },
-    "shots": 1710739988,
-    "duration": 427440.4212900213,
+    "shots": 2714393136,
+    "duration": 710357.2290528129,
     "min_time": 1.0805330829999997,
-    "finished_tasks": 1852
+    "finished_tasks": 3206
   },
   "bedb2dab1e98f9fe0906254ec7ea5aa67a21750b5f0ab2747601a474b2d4733dd6c872ca4f8d5de34c40c7031e0c91045209595db1c84a43f2d0d834c9f29d2e": {
     "args": [],
