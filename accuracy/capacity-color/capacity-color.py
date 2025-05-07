@@ -8,7 +8,7 @@ this_dir = os.path.dirname(os.path.abspath(__file__))
 assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
-decoder_vec = ["mwpf(c=0)", "mwpf(c=50)"]
+decoder_vec = ["chromobius", "mwpf(c=0)", "mwpf(c=50)"]
 p_d_vec = [
     ("0.4", [3, 5, 7, 9, 11, 13]),
     ("0.3", [3, 5, 7, 9, 11, 13]),
@@ -30,7 +30,7 @@ code_vec: list[str] = []
 noise_vec: list[str] = []
 for p, d_vec in p_d_vec:
     for d in d_vec:
-        code_vec.append(f"css_color(d={d})")
+        code_vec.append(f"css_color(d={d},color=1)")
         noise_vec.append(f"depolarize(p={p})")
 
 

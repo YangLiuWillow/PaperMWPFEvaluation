@@ -9,690 +9,690 @@
     "result": {
       "results": {
         "bposd(max_iter=1,ms_scaling_factor=0.1)": {
-          "errors": 80,
+          "errors": 2484,
           "discards": 0
         },
         "bposd(max_iter=1,ms_scaling_factor=0.2)": {
-          "errors": 80,
+          "errors": 2484,
           "discards": 0
         },
         "bposd(max_iter=1,ms_scaling_factor=0.3)": {
-          "errors": 74,
+          "errors": 2476,
           "discards": 0
         },
         "bposd(max_iter=1,ms_scaling_factor=0.4)": {
-          "errors": 80,
+          "errors": 2549,
           "discards": 0
         },
         "bposd(max_iter=1,ms_scaling_factor=0.5)": {
-          "errors": 80,
+          "errors": 2549,
           "discards": 0
         },
         "bposd(max_iter=1,ms_scaling_factor=0.6)": {
-          "errors": 79,
+          "errors": 2550,
           "discards": 0
         },
         "bposd(max_iter=1,ms_scaling_factor=0.7)": {
-          "errors": 81,
+          "errors": 2440,
           "discards": 0
         },
         "bposd(max_iter=1,ms_scaling_factor=0.8)": {
-          "errors": 74,
+          "errors": 2478,
           "discards": 0
         },
         "bposd(max_iter=1,ms_scaling_factor=0.9)": {
-          "errors": 80,
+          "errors": 2484,
           "discards": 0
         },
         "bposd(max_iter=1,ms_scaling_factor=1.0)": {
-          "errors": 74,
+          "errors": 2478,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=0.1)": {
-          "errors": 35,
+          "errors": 1176,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=0.2)": {
-          "errors": 30,
+          "errors": 1070,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=0.3)": {
-          "errors": 37,
+          "errors": 1094,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=0.4)": {
-          "errors": 89,
+          "errors": 3024,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=0.5)": {
-          "errors": 85,
+          "errors": 2262,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=0.6)": {
-          "errors": 275,
+          "errors": 8907,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=0.7)": {
-          "errors": 200,
+          "errors": 6898,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=0.8)": {
-          "errors": 201,
+          "errors": 6503,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=0.9)": {
-          "errors": 194,
+          "errors": 6746,
           "discards": 0
         },
         "bposd(max_iter=2,ms_scaling_factor=1.0)": {
-          "errors": 667,
+          "errors": 9367,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=0.1)": {
-          "errors": 32,
+          "errors": 1055,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=0.2)": {
-          "errors": 30,
+          "errors": 935,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=0.3)": {
-          "errors": 26,
+          "errors": 849,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=0.4)": {
-          "errors": 25,
+          "errors": 864,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=0.5)": {
-          "errors": 27,
+          "errors": 778,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=0.6)": {
-          "errors": 32,
+          "errors": 982,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=0.7)": {
-          "errors": 50,
+          "errors": 1893,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=0.8)": {
-          "errors": 58,
+          "errors": 1840,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=0.9)": {
-          "errors": 91,
+          "errors": 2988,
           "discards": 0
         },
         "bposd(max_iter=3,ms_scaling_factor=1.0)": {
-          "errors": 201,
+          "errors": 5194,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1019,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=0.2)": {
-          "errors": 22,
+          "errors": 851,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=0.3)": {
-          "errors": 24,
+          "errors": 847,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=0.4)": {
-          "errors": 36,
+          "errors": 1127,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=0.5)": {
-          "errors": 73,
+          "errors": 2208,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=0.6)": {
-          "errors": 39,
+          "errors": 1592,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=0.7)": {
-          "errors": 51,
+          "errors": 1657,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=0.8)": {
-          "errors": 44,
+          "errors": 1691,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=0.9)": {
-          "errors": 58,
+          "errors": 2145,
           "discards": 0
         },
         "bposd(max_iter=4,ms_scaling_factor=1.0)": {
-          "errors": 278,
+          "errors": 6957,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1014,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=0.2)": {
-          "errors": 27,
+          "errors": 844,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=0.3)": {
-          "errors": 25,
+          "errors": 813,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=0.4)": {
-          "errors": 31,
+          "errors": 865,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=0.5)": {
-          "errors": 39,
+          "errors": 925,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=0.6)": {
-          "errors": 27,
+          "errors": 948,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=0.7)": {
-          "errors": 95,
+          "errors": 3100,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=0.8)": {
-          "errors": 1951,
+          "errors": 57792,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=0.9)": {
-          "errors": 277,
+          "errors": 8509,
           "discards": 0
         },
         "bposd(max_iter=5,ms_scaling_factor=1.0)": {
-          "errors": 282,
+          "errors": 7009,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=0.2)": {
-          "errors": 23,
+          "errors": 833,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=0.3)": {
-          "errors": 21,
+          "errors": 825,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=0.4)": {
-          "errors": 28,
+          "errors": 1144,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=0.5)": {
-          "errors": 41,
+          "errors": 1631,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=0.6)": {
-          "errors": 34,
+          "errors": 1288,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=0.7)": {
-          "errors": 42,
+          "errors": 1359,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=0.8)": {
-          "errors": 83,
+          "errors": 2710,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=0.9)": {
-          "errors": 94,
+          "errors": 3265,
           "discards": 0
         },
         "bposd(max_iter=6,ms_scaling_factor=1.0)": {
-          "errors": 489,
+          "errors": 8589,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=0.2)": {
-          "errors": 26,
+          "errors": 840,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=0.3)": {
-          "errors": 25,
+          "errors": 780,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=0.4)": {
-          "errors": 28,
+          "errors": 913,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=0.5)": {
-          "errors": 34,
+          "errors": 1009,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=0.6)": {
-          "errors": 27,
+          "errors": 1011,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=0.7)": {
-          "errors": 37,
+          "errors": 1212,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=0.8)": {
-          "errors": 39,
+          "errors": 1326,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=0.9)": {
-          "errors": 45,
+          "errors": 1629,
           "discards": 0
         },
         "bposd(max_iter=7,ms_scaling_factor=1.0)": {
-          "errors": 145,
+          "errors": 3823,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 825,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=0.3)": {
-          "errors": 20,
+          "errors": 788,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=0.4)": {
-          "errors": 28,
+          "errors": 1103,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=0.5)": {
-          "errors": 45,
+          "errors": 1607,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=0.6)": {
-          "errors": 34,
+          "errors": 1280,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=0.7)": {
-          "errors": 39,
+          "errors": 1313,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=0.8)": {
-          "errors": 52,
+          "errors": 1521,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=0.9)": {
-          "errors": 48,
+          "errors": 1821,
           "discards": 0
         },
         "bposd(max_iter=8,ms_scaling_factor=1.0)": {
-          "errors": 420,
+          "errors": 7428,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 813,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=0.3)": {
-          "errors": 24,
+          "errors": 754,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=0.4)": {
-          "errors": 27,
+          "errors": 890,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=0.5)": {
-          "errors": 59,
+          "errors": 1659,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=0.6)": {
-          "errors": 29,
+          "errors": 1035,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=0.7)": {
-          "errors": 71,
+          "errors": 1770,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=0.8)": {
-          "errors": 46,
+          "errors": 1202,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=0.9)": {
-          "errors": 61,
+          "errors": 2225,
           "discards": 0
         },
         "bposd(max_iter=9,ms_scaling_factor=1.0)": {
-          "errors": 172,
+          "errors": 5221,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 823,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=0.3)": {
-          "errors": 23,
+          "errors": 808,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=0.4)": {
-          "errors": 27,
+          "errors": 1060,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=0.5)": {
-          "errors": 52,
+          "errors": 2172,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=0.6)": {
-          "errors": 60,
+          "errors": 1922,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=0.7)": {
-          "errors": 42,
+          "errors": 1319,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=0.8)": {
-          "errors": 43,
+          "errors": 1435,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=0.9)": {
-          "errors": 43,
+          "errors": 1617,
           "discards": 0
         },
         "bposd(max_iter=10,ms_scaling_factor=1.0)": {
-          "errors": 312,
+          "errors": 4832,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 810,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=0.3)": {
-          "errors": 25,
+          "errors": 812,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=0.4)": {
-          "errors": 27,
+          "errors": 1065,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=0.5)": {
-          "errors": 50,
+          "errors": 1670,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=0.6)": {
-          "errors": 65,
+          "errors": 1998,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=0.7)": {
-          "errors": 39,
+          "errors": 1386,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=0.8)": {
-          "errors": 42,
+          "errors": 1367,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=0.9)": {
-          "errors": 57,
+          "errors": 2154,
           "discards": 0
         },
         "bposd(max_iter=16,ms_scaling_factor=1.0)": {
-          "errors": 262,
+          "errors": 5543,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 807,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=0.3)": {
-          "errors": 25,
+          "errors": 820,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=0.4)": {
-          "errors": 26,
+          "errors": 1055,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=0.5)": {
-          "errors": 73,
+          "errors": 2194,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=0.6)": {
-          "errors": 63,
+          "errors": 1968,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=0.7)": {
-          "errors": 40,
+          "errors": 1363,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=0.8)": {
-          "errors": 40,
+          "errors": 1334,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=0.9)": {
-          "errors": 46,
+          "errors": 1646,
           "discards": 0
         },
         "bposd(max_iter=20,ms_scaling_factor=1.0)": {
-          "errors": 331,
+          "errors": 6219,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 801,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=0.3)": {
-          "errors": 25,
+          "errors": 812,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=0.4)": {
-          "errors": 24,
+          "errors": 1074,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=0.5)": {
-          "errors": 95,
+          "errors": 2686,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=0.6)": {
-          "errors": 44,
+          "errors": 1384,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=0.7)": {
-          "errors": 46,
+          "errors": 1277,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=0.8)": {
-          "errors": 39,
+          "errors": 1317,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=0.9)": {
-          "errors": 70,
+          "errors": 2156,
           "discards": 0
         },
         "bposd(max_iter=50,ms_scaling_factor=1.0)": {
-          "errors": 408,
+          "errors": 6879,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 801,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=0.3)": {
-          "errors": 25,
+          "errors": 812,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=0.4)": {
-          "errors": 27,
+          "errors": 1046,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=0.5)": {
-          "errors": 48,
+          "errors": 1624,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=0.6)": {
-          "errors": 66,
+          "errors": 1998,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=0.7)": {
-          "errors": 47,
+          "errors": 1359,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=0.8)": {
-          "errors": 41,
+          "errors": 1273,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=0.9)": {
-          "errors": 59,
+          "errors": 1900,
           "discards": 0
         },
         "bposd(max_iter=100,ms_scaling_factor=1.0)": {
-          "errors": 250,
+          "errors": 4567,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 801,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=0.3)": {
-          "errors": 25,
+          "errors": 812,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=0.4)": {
-          "errors": 28,
+          "errors": 1041,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=0.5)": {
-          "errors": 96,
+          "errors": 2745,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=0.6)": {
-          "errors": 49,
+          "errors": 1590,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=0.7)": {
-          "errors": 41,
+          "errors": 1338,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=0.8)": {
-          "errors": 41,
+          "errors": 1259,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=0.9)": {
-          "errors": 44,
+          "errors": 1554,
           "discards": 0
         },
         "bposd(max_iter=200,ms_scaling_factor=1.0)": {
-          "errors": 267,
+          "errors": 4643,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 801,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=0.3)": {
-          "errors": 25,
+          "errors": 812,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=0.4)": {
-          "errors": 28,
+          "errors": 1044,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=0.5)": {
-          "errors": 97,
+          "errors": 2740,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=0.6)": {
-          "errors": 70,
+          "errors": 1959,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=0.7)": {
-          "errors": 42,
+          "errors": 1311,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=0.8)": {
-          "errors": 42,
+          "errors": 1451,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=0.9)": {
-          "errors": 30,
+          "errors": 1244,
           "discards": 0
         },
         "bposd(max_iter=500,ms_scaling_factor=1.0)": {
-          "errors": 265,
+          "errors": 4686,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.1)": {
-          "errors": 30,
+          "errors": 1012,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.2)": {
-          "errors": 24,
+          "errors": 801,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.3)": {
-          "errors": 25,
+          "errors": 812,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.4)": {
-          "errors": 27,
+          "errors": 1044,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.5)": {
-          "errors": 46,
+          "errors": 1622,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.6)": {
-          "errors": 57,
+          "errors": 1785,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.7)": {
-          "errors": 47,
+          "errors": 1342,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.8)": {
-          "errors": 38,
+          "errors": 1406,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 37,
+          "errors": 1242,
           "discards": 0
         },
         "bposd(max_iter=1000,ms_scaling_factor=1.0)": {
-          "errors": 209,
+          "errors": 3648,
           "discards": 0
         }
       }
     },
-    "shots": 798896,
-    "duration": 5069.015428250999,
+    "shots": 23690908,
+    "duration": 205457.39840653678,
     "min_time": 0.576467417,
-    "finished_tasks": 39
+    "finished_tasks": 845
   }
 }

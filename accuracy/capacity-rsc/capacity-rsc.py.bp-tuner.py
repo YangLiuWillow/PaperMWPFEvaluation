@@ -16,7 +16,7 @@ assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
 code = "css_rsc(d=7)"
-noise = "depolarize(p=0.02)"
+noise = "depolarize(p=0.01)"
 decoders = ["bposd", "bposd(osd_order=10,osd_method=cs)"]
 
 
@@ -30,6 +30,8 @@ def main(*, target_precision: float = 0.04):
 def task(data: tuple[str, float]):
     decoder, target_precision = data
     from qec_lego_bench.notebooks.bp_tuner import notebook_bp_tuner
+
+    print(f"{decoder} running on process: {os.getpid()}")
 
     notebook_bp_tuner(
         notebook_filepath=notebook_filepath[:-6] + f".{slugify(str(decoder))}.ipynb",

@@ -31,6 +31,8 @@ def task(data: tuple[str, float]):
     decoder, target_precision = data
     from qec_lego_bench.notebooks.bp_tuner import notebook_bp_tuner
 
+    print(f"{decoder} running on process: {os.getpid()}")
+
     notebook_bp_tuner(
         notebook_filepath=notebook_filepath[:-6] + f".{slugify(str(decoder))}.ipynb",
         code=code,

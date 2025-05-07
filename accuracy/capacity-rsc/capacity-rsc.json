@@ -953,31 +953,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 5245,
+          "errors": 5256,
           "discards": 0,
-          "elapsed": 2.575421252289147
+          "elapsed": 2.590909573796365
         },
         "fb": {
-          "errors": 4579,
+          "errors": 4590,
           "discards": 0,
-          "elapsed": 2.5577111732208007
+          "elapsed": 2.569711586324338
         },
         "mwpf(c=0)": {
-          "errors": 4875,
+          "errors": 4885,
           "discards": 0,
-          "elapsed": 14.579687041192303
+          "elapsed": 14.644406676997399
         },
         "mwpf(c=50)": {
-          "errors": 4158,
+          "errors": 4167,
           "discards": 0,
-          "elapsed": 396.81080282779334
+          "elapsed": 398.6979048709554
         }
       }
     },
-    "shots": 44160,
-    "duration": 409.4309733310001,
+    "shots": 44260,
+    "duration": 411.72878980799936,
     "min_time": 0.6618485000000005,
-    "finished_tasks": 16
+    "finished_tasks": 17
   },
   "6a00c33d8f7c248f77e8da9a2d8be83a85fbc84f78589c79c87dd8794c3cb98bae1b9215b5eb1df71f4672b500bb20c9a4141c05d5f89d5812a83e02af133bfe": {
     "args": [],
@@ -2003,31 +2003,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 21058,
+          "errors": 21683,
           "discards": 0,
-          "elapsed": 13414.397921571648
+          "elapsed": 13872.038918592243
         },
         "fb": {
-          "errors": 13318,
+          "errors": 13730,
           "discards": 0,
-          "elapsed": 13187.407995642543
+          "elapsed": 13643.80678131603
         },
         "mwpf(c=0)": {
-          "errors": 9192,
+          "errors": 9480,
           "discards": 0,
-          "elapsed": 25680.258252052365
+          "elapsed": 26633.04985414953
         },
         "mwpf(c=50)": {
-          "errors": 4041,
+          "errors": 4177,
           "discards": 0,
-          "elapsed": 52089.20988294328
+          "elapsed": 53953.59891887517
         }
       }
     },
-    "shots": 530760289,
-    "duration": 99885.3666084139,
+    "shots": 546521545,
+    "duration": 103495.94053127288,
     "min_time": 0.6904403339999998,
-    "finished_tasks": 472
+    "finished_tasks": 489
   },
   "7c52698bfe347aa48c840f5effd40d68cec4ad553a4458ac062960e3b958ec3e43d584e9d5acf6aa6a8978fc071e561e09d8a4f0446813a676050978d4b8d626": {
     "args": [],
@@ -2038,31 +2038,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 23633,
+          "errors": 28240,
           "discards": 0,
-          "elapsed": 80539.0718887676
+          "elapsed": 97487.0987647504
         },
         "fb": {
-          "errors": 13558,
+          "errors": 16184,
           "discards": 0,
-          "elapsed": 79439.00399817113
+          "elapsed": 96258.99086549912
         },
         "mwpf(c=0)": {
-          "errors": 8922,
+          "errors": 10689,
           "discards": 0,
-          "elapsed": 183475.59824763457
+          "elapsed": 224957.2395706107
         },
         "mwpf(c=50)": {
-          "errors": 3515,
+          "errors": 4194,
           "discards": 0,
-          "elapsed": 389348.5462135918
+          "elapsed": 476163.6555510088
         }
       }
     },
-    "shots": 2714393136,
-    "duration": 710357.2290528129,
+    "shots": 3249730252,
+    "duration": 868657.5047085177,
     "min_time": 1.0805330829999997,
-    "finished_tasks": 3206
+    "finished_tasks": 3973
   },
   "bedb2dab1e98f9fe0906254ec7ea5aa67a21750b5f0ab2747601a474b2d4733dd6c872ca4f8d5de34c40c7031e0c91045209595db1c84a43f2d0d834c9f29d2e": {
     "args": [],
@@ -2143,31 +2143,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 15456,
+          "errors": 16166,
           "discards": 0,
-          "elapsed": 21602.129955900826
+          "elapsed": 22701.632014000472
         },
         "fb": {
-          "errors": 10845,
+          "errors": 11351,
           "discards": 0,
-          "elapsed": 21613.435397132256
+          "elapsed": 22705.33970700134
         },
         "mwpf(c=0)": {
-          "errors": 7140,
+          "errors": 7501,
           "discards": 0,
-          "elapsed": 32155.903881537906
+          "elapsed": 33958.54100230587
         },
         "mwpf(c=50)": {
-          "errors": 3958,
+          "errors": 4166,
           "discards": 0,
-          "elapsed": 38655.647437604566
+          "elapsed": 40830.54363750568
         }
       }
     },
-    "shots": 1250646479,
-    "duration": 109085.24389327985,
+    "shots": 1314790298,
+    "duration": 115110.29992424088,
     "min_time": 0.40650258400000006,
-    "finished_tasks": 579
+    "finished_tasks": 611
   },
   "cc6c26c1452940f55258a0afdc64bf6af72267b735df9ee9ddbe95b2435b123afceb3dc7635fdbce13ad8737f5694b3a55976811896b45c9809973cc0faf5d31": {
     "args": [],
@@ -2248,31 +2248,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 8834,
+          "errors": 9120,
           "discards": 0,
-          "elapsed": 11209.70497989881
+          "elapsed": 11522.931077746724
         },
         "fb": {
-          "errors": 7121,
+          "errors": 7357,
           "discards": 0,
-          "elapsed": 11132.575601395194
+          "elapsed": 11428.719800775887
         },
         "mwpf(c=0)": {
-          "errors": 5159,
+          "errors": 5337,
           "discards": 0,
-          "elapsed": 12422.054768962453
+          "elapsed": 12793.813947994859
         },
         "mwpf(c=50)": {
-          "errors": 4034,
+          "errors": 4166,
           "discards": 0,
-          "elapsed": 12745.623417989296
+          "elapsed": 13133.180376918315
         }
       }
     },
-    "shots": 674782902,
-    "duration": 44229.89794392598,
+    "shots": 696026687,
+    "duration": 45555.00821896898,
     "min_time": 0.203951,
-    "finished_tasks": 263
+    "finished_tasks": 271
   },
   "1b13d162077d5fe034b35ceb7edc90175598bcd653b84d7b32f380d0437c329045adef277cba42ca2e28409ab05d35d348d689a2ec22d51273cab6154b897e33": {
     "args": [],
