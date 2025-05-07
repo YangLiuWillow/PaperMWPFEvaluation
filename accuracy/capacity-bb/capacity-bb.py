@@ -8,26 +8,32 @@ this_dir = os.path.dirname(os.path.abspath(__file__))
 assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
-decoder_vec = ["mwpf(c=0)", "mwpf(c=1000)"]
+code_dict: dict[int, str] = {
+    72: "bb(n=72,k=12,d=6)",
+    90: "bb(n=90,k=8,d=10)",
+    108: "bb(n=108,k=8,d=10)",
+    144: "bb(n=144,k=12,d=12)",
+    288: "bb(n=288,k=12,d=18)",
+}
+
+decoder_vec = ["mwpf(c=0)", "mwpf(c=200)"]
 p_d_vec = [
-    ("0.48", [3, 5, 7, 9]),
-    ("0.45", [3, 5, 7, 9]),
-    ("0.4", [3, 5, 7, 9]),
-    ("0.35", [3, 5, 7, 9]),
-    ("0.3", [3, 5, 7, 9]),
-    ("0.25", [3, 5, 7]),
-    ("0.2", [3, 5]),
-    ("0.16", [3, 5]),
-    ("0.13", [3, 5]),
-    ("0.1", [3]),
+    ("0.4", [72, 90, 144]),
+    ("0.3", [72, 90, 144]),
+    ("0.2", [72, 90, 144]),
+    ("0.1", [72, 90, 144]),
+    ("0.05", [72, 90, 144]),
+    ("0.02", [72, 90, 144]),
+    ("0.01", [72, 90]),
+    ("0.005", [72]),
 ]
 
 code_vec: list[str] = []
 noise_vec: list[str] = []
-for p, d_vec in p_d_vec:
-    for d in d_vec:
-        code_vec.append(f"css_rsc(d={d})")
-        noise_vec.append(f"biased(p={p},basis=Y,eta=inf)")
+for p, n_vec in p_d_vec:
+    for n in n_vec:
+        code_vec.append(code_dict[n])
+        noise_vec.append(f"depolarize(p={p})")
 
 
 @arguably.command
@@ -44,7 +50,6 @@ def main(*, target_precision: float = 0.04):
         target_precision=target_precision,
         local_maximum_jobs=local_maximum_jobs - 1,
         max_shots=10_000_000,
-        high_pL_threshold=1.0,  # special for biased-Y where the threshold is close to 50%
     )
 
 
