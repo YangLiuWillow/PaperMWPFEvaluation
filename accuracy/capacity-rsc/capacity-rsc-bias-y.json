@@ -258,21 +258,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 14235,
+          "errors": 14264,
           "discards": 0,
-          "elapsed": 27.843526612831774
+          "elapsed": 27.93404371180015
         },
         "mwpf(c=1000)": {
-          "errors": 4159,
+          "errors": 4168,
           "discards": 0,
-          "elapsed": 422.9401313912724
+          "elapsed": 424.01399786897895
         }
       }
     },
-    "shots": 53443,
-    "duration": 440.015581686,
+    "shots": 53543,
+    "duration": 441.34275732899675,
     "min_time": 0.19678125000000002,
-    "finished_tasks": 13
+    "finished_tasks": 14
   },
   "d85db93b1bc5ecdc5a1d7994ff941ca4656959ce0245052588b81141c9a1119f68fc7be8e600d8f5ec8f585a45bb4480b1d140e9f595f437680e4bd630dc5ae5": {
     "args": [],
@@ -483,21 +483,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 2095195,
+          "errors": 4996528,
           "discards": 0,
-          "elapsed": 31356.85238772062
+          "elapsed": 80024.55579545457
         },
         "mwpf(c=1000)": {
-          "errors": 1847,
+          "errors": 4446,
           "discards": 0,
-          "elapsed": 337935.59034356003
+          "elapsed": 854597.5603185685
         }
       }
     },
-    "shots": 22497527,
-    "duration": 360580.966909359,
+    "shots": 53643088,
+    "duration": 911433.8847091538,
     "min_time": 0.2907350839999999,
-    "finished_tasks": 1594
+    "finished_tasks": 4424
   },
   "045d1645524a9fafebf5f917331249663f64d7ca64739384a9c4531e5b0dc30dc86f2577d11c89812031201f6a80643a8af03f4b64f0b42c98ff133fa7db4ec1": {
     "args": [],
@@ -508,21 +508,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 7067,
+          "errors": 7077,
           "discards": 0,
-          "elapsed": 3.4419301091310444
+          "elapsed": 3.4468967621018054
         },
         "mwpf(c=1000)": {
-          "errors": 4156,
+          "errors": 4161,
           "discards": 0,
-          "elapsed": 14.084357088809703
+          "elapsed": 14.112535388139879
         }
       }
     },
-    "shots": 83326,
-    "duration": 17.22630034399995,
+    "shots": 83427,
+    "duration": 17.271396696001514,
     "min_time": 0.035198208000000175,
-    "finished_tasks": 12
+    "finished_tasks": 13
   },
   "78d60153e30b28472ac9888d7c2557b85a8b32a9b5f0e9203ea3cbc9474910d714ee1739b60ec0a712691766534404759c3a0bfce4bd65a0eb851165b76f0acc": {
     "args": [],
@@ -533,21 +533,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 89084,
+          "errors": 89143,
           "discards": 0,
-          "elapsed": 177.26236221973252
+          "elapsed": 177.42839042731677
         },
         "mwpf(c=1000)": {
-          "errors": 4158,
+          "errors": 4162,
           "discards": 0,
-          "elapsed": 1328.8204679469661
+          "elapsed": 1329.9737557784244
         }
       }
     },
-    "shots": 1228454,
-    "duration": 1458.5167345309999,
+    "shots": 1229341,
+    "duration": 1459.8781996569994,
     "min_time": 0.08565345800000013,
-    "finished_tasks": 21
+    "finished_tasks": 22
   },
   "192f9d855f7474473aa3836864927532123521f9e8aece5e089374e9dc2fa88fd2db42599db8fa3d99946a043586f385615aeee02edd8c2768c3b7448ce8cc7e": {
     "args": [],
@@ -683,21 +683,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 16948,
+          "errors": 16976,
           "discards": 0,
-          "elapsed": 44.52104959445147
+          "elapsed": 44.61072653301668
         },
         "mwpf(c=1000)": {
-          "errors": 4154,
+          "errors": 4161,
           "discards": 0,
-          "elapsed": 108.09837665022125
+          "elapsed": 108.31774422680374
         }
       }
     },
-    "shots": 1432766,
-    "duration": 140.72230530800002,
+    "shots": 1435181,
+    "duration": 141.03845507199944,
     "min_time": 0.03379029099999986,
-    "finished_tasks": 15
+    "finished_tasks": 16
   },
   "4aa89a8888dbd1c6550e800571537e01abe08aed95ceba71e3a753dbc3b79b7a5a59479e1fdf20e15e68ba1072c36dc531fb448979e5ed260b4d904068aa3ab9": {
     "args": [],
@@ -708,21 +708,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 4995703,
+          "errors": 7517831,
           "discards": 0,
-          "elapsed": 77993.49249302526
+          "elapsed": 121266.00080060569
         },
         "mwpf(c=1000)": {
-          "errors": 2792,
+          "errors": 4162,
           "discards": 0,
-          "elapsed": 277988.642194205
+          "elapsed": 428520.3707484545
         }
       }
     },
-    "shots": 818489271,
-    "duration": 345829.00893750816,
+    "shots": 1232130973,
+    "duration": 534641.9217459735,
     "min_time": 0.09774129099999995,
-    "finished_tasks": 1582
+    "finished_tasks": 2553
   },
   "658aced879a01c77c3407375aff084213fab1d463dea28ddbbc154e810c0b709ade1d9124c8325e78408202d313626b622de53d5b9f1a464493dc65404977601": {
     "args": [],

@@ -333,21 +333,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 8444,
+          "errors": 8480,
           "discards": 0,
-          "elapsed": 341.9515943332173
+          "elapsed": 343.4387496358421
         },
         "mwpf(c=200)": {
-          "errors": 4145,
+          "errors": 4162,
           "discards": 0,
-          "elapsed": 13889.468141978417
+          "elapsed": 13953.359468310351
         }
       }
     },
-    "shots": 339336,
-    "duration": 13455.434053281999,
+    "shots": 340646,
+    "duration": 13518.852254443,
     "min_time": 0.34606079099999976,
-    "finished_tasks": 70
+    "finished_tasks": 71
   },
   "48c46af61ede6b0e8265d59df15e030647c52c0f20e8d1bce8e762bcc410d39a750dcfffa7c3c34032c5f1151e8c22051418253b35dba9ccd877bc8191e0233e": {
     "args": [],
@@ -408,21 +408,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 26062,
+          "errors": 26162,
           "discards": 0,
-          "elapsed": 12999.669222008491
+          "elapsed": 13062.955359883814
         },
         "mwpf(c=200)": {
-          "errors": 4144,
+          "errors": 4167,
           "discards": 0,
-          "elapsed": 62978.284660749276
+          "elapsed": 63260.91886877099
         }
       }
     },
-    "shots": 92288182,
-    "duration": 73006.66331830702,
+    "shots": 92666778,
+    "duration": 73344.47170620802,
     "min_time": 0.32268979200000025,
-    "finished_tasks": 331
+    "finished_tasks": 333
   },
   "2702ba252a0ed8ddffff46eb405bdb254b51ddbc3eb644b86a6a846b9adbbc6315ba62367da50c15af0010daf6fe97490e70c765e6a50a29c502b64285f733d1": {
     "args": [],
@@ -433,21 +433,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 33755,
+          "errors": 36888,
           "discards": 0,
-          "elapsed": 54049.39325946475
+          "elapsed": 59071.841552516875
         },
         "mwpf(c=200)": {
-          "errors": 3800,
+          "errors": 4161,
           "discards": 0,
-          "elapsed": 217111.44070818022
+          "elapsed": 237230.08785685006
         }
       }
     },
-    "shots": 223371284,
-    "duration": 263112.95404184074,
+    "shots": 243492325,
+    "duration": 287588.778863296,
     "min_time": 0.6664841249999998,
-    "finished_tasks": 1308
+    "finished_tasks": 1440
   },
   "96c88261f9811281f8839b9b8072edaaf5dee3dac8193a41d710fea9cf6c54a4dc98096d2e8fa9b9ab48409576614d90c0c8a7f1e32664aa7bced20188d5407e": {
     "args": [],
@@ -458,21 +458,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 7142,
+          "errors": 7162,
           "discards": 0,
-          "elapsed": 5762.763792838264
+          "elapsed": 5784.822810801139
         },
         "mwpf(c=200)": {
-          "errors": 4152,
+          "errors": 4161,
           "discards": 0,
-          "elapsed": 9684.06946349088
+          "elapsed": 9720.200585837381
         }
       }
     },
-    "shots": 107163480,
-    "duration": 13831.225419922997,
+    "shots": 107499080,
+    "duration": 13888.461108091,
     "min_time": 0.24890816700000018,
-    "finished_tasks": 72
+    "finished_tasks": 76
   },
   "f754505f581e2da0465d1e36ed068bc8efbb722af7953f04e79add1027ddcf220ea8f0a820c90e01dffb2cc5034fb4e7437e5ad41cb4ff77f8d8bd8cadd1da14": {
     "args": [],
@@ -483,21 +483,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 14359,
+          "errors": 66200,
           "discards": 0,
-          "elapsed": 102445.63463939636
+          "elapsed": 504717.8746856869
         },
         "mwpf(c=200)": {
-          "errors": 917,
+          "errors": 4266,
           "discards": 0,
-          "elapsed": 171135.68882724456
+          "elapsed": 830212.6381317924
         }
       }
     },
-    "shots": 1506822230,
-    "duration": 263741.9984982851,
+    "shots": 6982130062,
+    "duration": 1294939.2388090158,
     "min_time": 0.3485941249999991,
-    "finished_tasks": 1309
+    "finished_tasks": 6713
   },
   "55ba3ef54856418480f3c5c8ea23548aa2b6ba20f580678a249a354fe1517c9f2a686ef623ebe93ea873393f05c70c6a99e02eb29a84ecd989421fe67025a4fb": {
     "args": [],
@@ -508,20 +508,20 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 4996,
+          "errors": 5358,
           "discards": 0,
-          "elapsed": 35083.09522926505
+          "elapsed": 37846.01746468431
         },
         "mwpf(c=200)": {
-          "errors": 3909,
+          "errors": 4161,
           "discards": 0,
-          "elapsed": 40444.11587601506
+          "elapsed": 43582.820992901114
         }
       }
     },
-    "shots": 867553141,
-    "duration": 71663.17880539095,
+    "shots": 928161372,
+    "duration": 77404.08446997899,
     "min_time": 0.25041770799999696,
-    "finished_tasks": 319
+    "finished_tasks": 348
   }
 }
