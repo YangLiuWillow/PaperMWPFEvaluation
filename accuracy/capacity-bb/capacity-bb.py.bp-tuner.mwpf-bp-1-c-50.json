@@ -1,0 +1,698 @@
+{
+  "69982bdce16f4ba4c423dce9951190670b9efc92e0d445aeb7684a998965099c8be01f133e4a5beae0380fdf1d1404970de024b4e8993614043eb55da61bde0b": {
+    "args": [],
+    "kwargs": {
+      "code": "bb(n=90,k=8,d=10)",
+      "noise": "depolarize(p=0.025)",
+      "decoder": "mwpf(bp=1,c=50)"
+    },
+    "result": {
+      "results": {
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=0.1)": {
+          "errors": 3826,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=0.2)": {
+          "errors": 2747,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=0.3)": {
+          "errors": 2775,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=0.4)": {
+          "errors": 4030,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=0.5)": {
+          "errors": 4075,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=0.6)": {
+          "errors": 8307,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=0.7)": {
+          "errors": 11246,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=0.8)": {
+          "errors": 13337,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=0.9)": {
+          "errors": 17133,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1,ms_scaling_factor=1.0)": {
+          "errors": 77707,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=0.1)": {
+          "errors": 3733,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=0.2)": {
+          "errors": 2190,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=0.3)": {
+          "errors": 1568,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=0.4)": {
+          "errors": 1512,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=0.5)": {
+          "errors": 2018,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=0.6)": {
+          "errors": 7939,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=0.7)": {
+          "errors": 87675,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=0.8)": {
+          "errors": 312183,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=0.9)": {
+          "errors": 663020,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=2,ms_scaling_factor=1.0)": {
+          "errors": 753254,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=0.1)": {
+          "errors": 3772,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=0.2)": {
+          "errors": 2098,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=0.3)": {
+          "errors": 1348,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=0.4)": {
+          "errors": 1297,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=0.5)": {
+          "errors": 1521,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=0.6)": {
+          "errors": 2869,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=0.7)": {
+          "errors": 19997,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=0.8)": {
+          "errors": 114505,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=0.9)": {
+          "errors": 406263,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=3,ms_scaling_factor=1.0)": {
+          "errors": 770055,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=0.1)": {
+          "errors": 3780,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=0.2)": {
+          "errors": 2028,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=0.3)": {
+          "errors": 1199,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=0.4)": {
+          "errors": 879,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=0.5)": {
+          "errors": 852,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=0.6)": {
+          "errors": 2715,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=0.7)": {
+          "errors": 224205,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=0.8)": {
+          "errors": 454556,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=0.9)": {
+          "errors": 733128,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=4,ms_scaling_factor=1.0)": {
+          "errors": 1275802,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=0.1)": {
+          "errors": 3763,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=0.2)": {
+          "errors": 1962,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=0.3)": {
+          "errors": 1123,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=0.4)": {
+          "errors": 807,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=0.5)": {
+          "errors": 889,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=0.6)": {
+          "errors": 8871,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=0.7)": {
+          "errors": 166417,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=0.8)": {
+          "errors": 203099,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=0.9)": {
+          "errors": 1782128,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=5,ms_scaling_factor=1.0)": {
+          "errors": 2661217,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=0.1)": {
+          "errors": 3792,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=0.2)": {
+          "errors": 1949,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=0.3)": {
+          "errors": 1097,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=0.4)": {
+          "errors": 760,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=0.5)": {
+          "errors": 714,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=0.6)": {
+          "errors": 81796,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=0.7)": {
+          "errors": 1166306,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=0.8)": {
+          "errors": 266884,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=0.9)": {
+          "errors": 1546512,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=6,ms_scaling_factor=1.0)": {
+          "errors": 2497746,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=0.1)": {
+          "errors": 3761,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=0.2)": {
+          "errors": 1945,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=0.3)": {
+          "errors": 1051,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=0.4)": {
+          "errors": 761,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=0.5)": {
+          "errors": 751,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=0.6)": {
+          "errors": 5794,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=0.7)": {
+          "errors": 30501,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=0.8)": {
+          "errors": 228880,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=0.9)": {
+          "errors": 498604,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=7,ms_scaling_factor=1.0)": {
+          "errors": 1922221,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=0.1)": {
+          "errors": 3775,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=0.2)": {
+          "errors": 1952,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=0.3)": {
+          "errors": 1081,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=0.4)": {
+          "errors": 777,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=0.5)": {
+          "errors": 732,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=0.6)": {
+          "errors": 24783,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=0.7)": {
+          "errors": 59758,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=0.8)": {
+          "errors": 295714,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=0.9)": {
+          "errors": 381579,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=8,ms_scaling_factor=1.0)": {
+          "errors": 557845,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=0.1)": {
+          "errors": 3777,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=0.2)": {
+          "errors": 1941,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=0.3)": {
+          "errors": 1077,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=0.4)": {
+          "errors": 775,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=0.5)": {
+          "errors": 760,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=0.6)": {
+          "errors": 1645,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=0.7)": {
+          "errors": 36580,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=0.8)": {
+          "errors": 230965,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=0.9)": {
+          "errors": 170735,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=9,ms_scaling_factor=1.0)": {
+          "errors": 1035127,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=0.1)": {
+          "errors": 3758,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=0.2)": {
+          "errors": 1932,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=0.3)": {
+          "errors": 1086,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=0.4)": {
+          "errors": 801,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=0.5)": {
+          "errors": 759,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=0.6)": {
+          "errors": 14432,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=0.7)": {
+          "errors": 106935,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=0.8)": {
+          "errors": 255300,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=0.9)": {
+          "errors": 303496,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=10,ms_scaling_factor=1.0)": {
+          "errors": 582079,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=0.1)": {
+          "errors": 3767,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=0.2)": {
+          "errors": 1967,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=0.3)": {
+          "errors": 1079,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=0.4)": {
+          "errors": 850,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=0.5)": {
+          "errors": 803,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=0.6)": {
+          "errors": 36783,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=0.7)": {
+          "errors": 91579,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=0.8)": {
+          "errors": 253228,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=0.9)": {
+          "errors": 384279,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=16,ms_scaling_factor=1.0)": {
+          "errors": 530779,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=0.1)": {
+          "errors": 3774,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=0.2)": {
+          "errors": 1964,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=0.3)": {
+          "errors": 1087,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=0.4)": {
+          "errors": 868,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=0.5)": {
+          "errors": 825,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=0.6)": {
+          "errors": 18517,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=0.7)": {
+          "errors": 54319,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=0.8)": {
+          "errors": 179792,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=0.9)": {
+          "errors": 196396,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=20,ms_scaling_factor=1.0)": {
+          "errors": 418866,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=0.1)": {
+          "errors": 3770,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=0.2)": {
+          "errors": 1948,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=0.3)": {
+          "errors": 1081,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=0.4)": {
+          "errors": 886,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=0.5)": {
+          "errors": 850,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=0.6)": {
+          "errors": 23212,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=0.7)": {
+          "errors": 8982,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=0.8)": {
+          "errors": 3989,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=0.9)": {
+          "errors": 8891,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=50,ms_scaling_factor=1.0)": {
+          "errors": 81521,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=0.1)": {
+          "errors": 3763,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=0.2)": {
+          "errors": 1934,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=0.3)": {
+          "errors": 1071,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=0.4)": {
+          "errors": 889,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=0.5)": {
+          "errors": 843,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=0.6)": {
+          "errors": 5181,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=0.7)": {
+          "errors": 4491,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=0.8)": {
+          "errors": 1235,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=0.9)": {
+          "errors": 1255,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=100,ms_scaling_factor=1.0)": {
+          "errors": 6576,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=0.1)": {
+          "errors": 3761,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=0.2)": {
+          "errors": 1937,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=0.3)": {
+          "errors": 1080,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=0.4)": {
+          "errors": 883,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=0.5)": {
+          "errors": 842,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=0.6)": {
+          "errors": 2964,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=0.7)": {
+          "errors": 2940,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=0.8)": {
+          "errors": 1052,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=0.9)": {
+          "errors": 926,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=200,ms_scaling_factor=1.0)": {
+          "errors": 3931,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=0.1)": {
+          "errors": 3764,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=0.2)": {
+          "errors": 1940,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=0.3)": {
+          "errors": 1076,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=0.4)": {
+          "errors": 884,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=0.5)": {
+          "errors": 841,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=0.6)": {
+          "errors": 2632,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=0.7)": {
+          "errors": 2261,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=0.8)": {
+          "errors": 957,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=0.9)": {
+          "errors": 831,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=500,ms_scaling_factor=1.0)": {
+          "errors": 2888,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=0.1)": {
+          "errors": 3768,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=0.2)": {
+          "errors": 1947,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=0.3)": {
+          "errors": 1077,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=0.4)": {
+          "errors": 887,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=0.5)": {
+          "errors": 842,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=0.6)": {
+          "errors": 2327,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=0.7)": {
+          "errors": 2192,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=0.8)": {
+          "errors": 922,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 763,
+          "discards": 0
+        },
+        "mwpf(bp=1,c=50,max_iter=1000,ms_scaling_factor=1.0)": {
+          "errors": 1972,
+          "discards": 0
+        }
+      }
+    },
+    "shots": 13260353,
+    "duration": 4165903.889951043,
+    "min_time": 6.788882083000001,
+    "finished_tasks": 23214
+  }
+}

@@ -2,6 +2,9 @@
 We need to compare BP-OSD decoder with MWPF decoder family.
 
 Here we run the parameter tuning for BP-OSD decoder.
+
+# when using slurm, use the following command:
+> srun --time=1-00:00:00 --mem=20G --cpus-per-task=4
 """
 
 import os
@@ -16,8 +19,13 @@ assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
 code = "bb(n=90,k=8,d=10)"
-noise = "depolarize(p=0.01)"
-decoders = ["bposd", "bposd(osd_order=10,osd_method=cs)"]
+noise = "depolarize(p=0.025)"  # use a larger physical error rate because otherwise the simulation is too slow
+decoders = [
+    "bposd",
+    "bposd(osd_order=10,osd_method=cs)",
+    "mwpf(bp=1,c=50)",
+    "mwpf(bp=1,c=0)",
+]
 
 
 @arguably.command
