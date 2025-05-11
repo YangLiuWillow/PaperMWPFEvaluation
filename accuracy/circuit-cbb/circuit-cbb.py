@@ -9,11 +9,11 @@ assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
 code_dict: dict[int, str] = {
-    72: "bb(n=72,k=12,d=6)",
-    90: "bb(n=90,k=8,d=10)",
-    108: "bb(n=108,k=8,d=10)",
-    144: "bb(n=144,k=12,d=12)",
-    288: "bb(n=288,k=12,d=18)",
+    72: "cbb(n=72,k=12,d=6)",
+    90: "cbb(n=90,k=8,d=10)",
+    108: "cbb(n=108,k=8,d=10)",
+    144: "cbb(n=144,k=12,d=12)",
+    288: "cbb(n=288,k=12,d=18)",
 }
 
 decoder_vec = ["mwpf(c=0)", "mwpf(c=50)"]
