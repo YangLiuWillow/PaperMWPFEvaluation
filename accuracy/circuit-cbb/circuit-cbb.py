@@ -16,7 +16,7 @@ code_dict: dict[int, str] = {
     288: "cbb(n=288,k=12,d=18)",
 }
 
-decoder_vec = ["mwpf(c=0)", "mwpf(c=50)"]
+decoder_vec = ["mwpf(c=0)", "mwpf(c=50)", "bposd(max_iter=1000,ms_scaling_factor=1)"]
 p_n_vec = [
     ("0.003", [72, 90, 144]),  # 4e-2, .., 8e-2
     ("0.0025", [72, 90, 144]),  # 2e-2, .., 2e-2
