@@ -1,0 +1,698 @@
+{
+  "b9f548e22f9b54fc8c6db2083b7a9d8c801cf2e0f0203680ffeb2b4818dfd217f92eeb5ff96c28fa01580fcd302823dcb2f13da20b657ab918445c22782decf2": {
+    "args": [],
+    "kwargs": {
+      "code": "hgp",
+      "noise": "depolarize(p=0.02)",
+      "decoder": "bposd(osd_order=10,osd_method=cs)"
+    },
+    "result": {
+      "results": {
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=0.1)": {
+          "errors": 4,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=0.2)": {
+          "errors": 4,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=0.3)": {
+          "errors": 4,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=0.4)": {
+          "errors": 3,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=0.5)": {
+          "errors": 4,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=0.6)": {
+          "errors": 4,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=0.7)": {
+          "errors": 4,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=0.8)": {
+          "errors": 4,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=0.9)": {
+          "errors": 4,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1,ms_scaling_factor=1.0)": {
+          "errors": 4,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=0.2)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=0.3)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=0.4)": {
+          "errors": 5,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=0.5)": {
+          "errors": 721,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=0.6)": {
+          "errors": 1003,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=0.7)": {
+          "errors": 8021,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=0.8)": {
+          "errors": 38914,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=0.9)": {
+          "errors": 47311,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=2,ms_scaling_factor=1.0)": {
+          "errors": 48718,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=0.2)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=0.4)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=0.5)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=0.6)": {
+          "errors": 3,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=0.7)": {
+          "errors": 8,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=0.8)": {
+          "errors": 34,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=0.9)": {
+          "errors": 168,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=3,ms_scaling_factor=1.0)": {
+          "errors": 618,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=0.4)": {
+          "errors": 202,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=0.5)": {
+          "errors": 137,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=0.6)": {
+          "errors": 26502,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=0.7)": {
+          "errors": 34187,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=0.8)": {
+          "errors": 32280,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=0.9)": {
+          "errors": 37135,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=4,ms_scaling_factor=1.0)": {
+          "errors": 41011,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=0.2)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=0.3)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=0.4)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=0.5)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=0.6)": {
+          "errors": 5,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=0.7)": {
+          "errors": 13,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=0.8)": {
+          "errors": 105,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=0.9)": {
+          "errors": 962,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=5,ms_scaling_factor=1.0)": {
+          "errors": 6969,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=0.4)": {
+          "errors": 115,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=0.5)": {
+          "errors": 108,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=0.6)": {
+          "errors": 27237,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=0.7)": {
+          "errors": 25998,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=0.8)": {
+          "errors": 20568,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=0.9)": {
+          "errors": 12529,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=6,ms_scaling_factor=1.0)": {
+          "errors": 10640,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=0.4)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=0.5)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=0.6)": {
+          "errors": 3,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=0.7)": {
+          "errors": 12,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=0.8)": {
+          "errors": 273,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=0.9)": {
+          "errors": 821,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=7,ms_scaling_factor=1.0)": {
+          "errors": 2976,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=0.4)": {
+          "errors": 133,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=0.5)": {
+          "errors": 161,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=0.6)": {
+          "errors": 32908,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=0.7)": {
+          "errors": 16602,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=0.8)": {
+          "errors": 8111,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=0.9)": {
+          "errors": 2752,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=8,ms_scaling_factor=1.0)": {
+          "errors": 2068,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=0.4)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=0.5)": {
+          "errors": 3,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=0.6)": {
+          "errors": 3,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=0.7)": {
+          "errors": 45,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=0.8)": {
+          "errors": 480,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=0.9)": {
+          "errors": 511,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=9,ms_scaling_factor=1.0)": {
+          "errors": 1206,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=0.4)": {
+          "errors": 137,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=0.5)": {
+          "errors": 186,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=0.6)": {
+          "errors": 32274,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=0.7)": {
+          "errors": 22784,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=0.8)": {
+          "errors": 9514,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=0.9)": {
+          "errors": 4474,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=10,ms_scaling_factor=1.0)": {
+          "errors": 1679,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=0.4)": {
+          "errors": 192,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=0.5)": {
+          "errors": 236,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=0.6)": {
+          "errors": 32729,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=0.7)": {
+          "errors": 16850,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=0.8)": {
+          "errors": 4371,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=0.9)": {
+          "errors": 1714,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=16,ms_scaling_factor=1.0)": {
+          "errors": 1967,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=0.4)": {
+          "errors": 200,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=0.5)": {
+          "errors": 179,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=0.6)": {
+          "errors": 32577,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=0.7)": {
+          "errors": 20518,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=0.8)": {
+          "errors": 4540,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=0.9)": {
+          "errors": 1479,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=20,ms_scaling_factor=1.0)": {
+          "errors": 1166,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=0.4)": {
+          "errors": 202,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=0.5)": {
+          "errors": 284,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=0.6)": {
+          "errors": 32263,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=0.7)": {
+          "errors": 15677,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=0.8)": {
+          "errors": 683,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=0.9)": {
+          "errors": 95,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=50,ms_scaling_factor=1.0)": {
+          "errors": 145,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=0.4)": {
+          "errors": 205,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=0.5)": {
+          "errors": 240,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=0.6)": {
+          "errors": 32051,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=0.7)": {
+          "errors": 13319,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=0.8)": {
+          "errors": 184,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=0.9)": {
+          "errors": 43,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=100,ms_scaling_factor=1.0)": {
+          "errors": 98,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=0.4)": {
+          "errors": 213,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=0.5)": {
+          "errors": 244,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=0.6)": {
+          "errors": 32034,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=0.7)": {
+          "errors": 11601,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=0.8)": {
+          "errors": 62,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=0.9)": {
+          "errors": 37,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=200,ms_scaling_factor=1.0)": {
+          "errors": 93,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=0.4)": {
+          "errors": 214,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=0.5)": {
+          "errors": 228,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=0.6)": {
+          "errors": 31967,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=0.7)": {
+          "errors": 10264,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=0.8)": {
+          "errors": 34,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=0.9)": {
+          "errors": 42,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=500,ms_scaling_factor=1.0)": {
+          "errors": 92,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=0.1)": {
+          "errors": 2,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=0.2)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=0.3)": {
+          "errors": 1,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=0.4)": {
+          "errors": 210,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=0.5)": {
+          "errors": 251,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=0.6)": {
+          "errors": 31887,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=0.7)": {
+          "errors": 9562,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=0.8)": {
+          "errors": 18,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 38,
+          "discards": 0
+        },
+        "bposd(osd_order=10,osd_method=cs,max_iter=1000,ms_scaling_factor=1.0)": {
+          "errors": 94,
+          "discards": 0
+        }
+      }
+    },
+    "shots": 91725,
+    "duration": 450268.3554873529,
+    "min_time": 18.224435874999998,
+    "finished_tasks": 2591
+  }
+}

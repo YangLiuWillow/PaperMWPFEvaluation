@@ -948,16 +948,16 @@
     "result": {
       "results": {
         "bposd(max_iter=1000,ms_scaling_factor=1)": {
-          "errors": 0,
+          "errors": 4394,
           "discards": 0,
-          "elapsed": 0.030317695936653587
+          "elapsed": 107415.84361255342
         }
       }
     },
-    "shots": 64,
-    "duration": 5.776046418,
+    "shots": 387351273,
+    "duration": 89895.764852734,
     "min_time": 0.798933125,
-    "finished_tasks": 7
+    "finished_tasks": 381
   },
   "0809092c9d30691671d36ed9ba56b373f7b651548713aacafb5b24e8c49e704c5d9e26fe7aace4dc6c22b657dd0ce221f969c5e979fbdc46a9f0be4e56ffe52d": {
     "args": [],
@@ -968,16 +968,16 @@
     "result": {
       "results": {
         "bposd(max_iter=1000,ms_scaling_factor=1)": {
-          "errors": 0,
+          "errors": 5100,
           "discards": 0,
-          "elapsed": 0.02726863042843337
+          "elapsed": 96414.11316827538
         }
       }
     },
-    "shots": 64,
-    "duration": 5.788842167,
+    "shots": 355072000,
+    "duration": 81647.612315867,
     "min_time": 0.8050814999999998,
-    "finished_tasks": 7
+    "finished_tasks": 347
   },
   "9493eb95a0bd9e819c4106c767bab609c5c5bc07a9346bf8c27d21d4eb3f958e2531da902a2ba4acdfc56f00f4d747c8ae821b141dbc6642488b5f8d75e5a30c": {
     "args": [],
@@ -988,16 +988,16 @@
     "result": {
       "results": {
         "bposd(max_iter=1000,ms_scaling_factor=1)": {
-          "errors": 0,
+          "errors": 4163,
           "discards": 0,
-          "elapsed": 0.03366030307511957
+          "elapsed": 79247.70385003077
         }
       }
     },
-    "shots": 64,
-    "duration": 5.801256748,
+    "shots": 348209613,
+    "duration": 66289.77521704898,
     "min_time": 0.8065872079999999,
-    "finished_tasks": 7
+    "finished_tasks": 291
   },
   "b674ab44d3647d813f59c6432ef29c32ec5b8b21e826a2c39faa7ee963be30a5152714aac39a8c27ce4dae4751204e0ad4f5eb84c028324302ea29ee48c4cc4a": {
     "args": [],
@@ -1010,13 +1010,13 @@
         "bposd(max_iter=1000,ms_scaling_factor=1)": {
           "errors": 0,
           "discards": 0,
-          "elapsed": 0.03444751070487508
+          "elapsed": 484.62980320415267
         }
       }
     },
-    "shots": 64,
-    "duration": 5.828919916000001,
+    "shots": 4096000,
+    "duration": 502.897734669,
     "min_time": 0.8046966670000001,
-    "finished_tasks": 7
+    "finished_tasks": 22
   }
 }
