@@ -633,21 +633,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 848,
+          "errors": 8530,
           "discards": 0,
-          "elapsed": 18.253922901742442
+          "elapsed": 209.07241269737068
         },
         "mwpf(c=200)": {
-          "errors": 428,
+          "errors": 4305,
           "discards": 0,
-          "elapsed": 596.7066470959529
+          "elapsed": 8340.101894017087
         }
       }
     },
-    "shots": 52447,
-    "duration": 591.260060917,
+    "shots": 509888,
+    "duration": 8226.212588394,
     "min_time": 0.657337375,
-    "finished_tasks": 14
+    "finished_tasks": 43
   },
   "cd4173ae44e4c280da2ac0613bff6e8169d2a1f4168142e22c7c5925d13597608b76f159d6e6c58ca10b13d1806c6735dc344dc619287a86227a2cc9c5bf911d": {
     "args": [],
@@ -658,21 +658,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 477,
+          "errors": 10912,
           "discards": 0,
-          "elapsed": 26.93005900442084
+          "elapsed": 794.1324206197854
         },
         "mwpf(c=200)": {
-          "errors": 187,
+          "errors": 4192,
           "discards": 0,
-          "elapsed": 639.663638839939
+          "elapsed": 21942.71181746811
         }
       }
     },
-    "shots": 55979,
-    "duration": 643.1732689979999,
+    "shots": 1245608,
+    "duration": 21880.519742944995,
     "min_time": 0.8097040419999999,
-    "finished_tasks": 15
+    "finished_tasks": 90
   },
   "6fd5d1712cc87e3c2c268337238ea1661e64da734784d8df194600932debb77b20f245abdad6033765f657a3b33b8de6eee329c3e81f841b0c77d997e8ebd9c9": {
     "args": [],
@@ -683,21 +683,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 347,
+          "errors": 12557,
           "discards": 0,
-          "elapsed": 52.05325854233975
+          "elapsed": 2323.6933759971507
         },
         "mwpf(c=200)": {
-          "errors": 122,
+          "errors": 4161,
           "discards": 0,
-          "elapsed": 694.7288818183068
+          "elapsed": 39963.29629819544
         }
       }
     },
-    "shots": 44150,
-    "duration": 725.671336251,
+    "shots": 1570847,
+    "duration": 40890.990850890994,
     "min_time": 1.363550584,
-    "finished_tasks": 15
+    "finished_tasks": 158
   },
   "e374fc5ec6035170dedcbaaec3dcb10409ff591700d0a9f7b31b39151afd5ee24707f2d6aab8009859676a6ae04f9434b3b7e33b0c6832d562522f98ee0a44ae": {
     "args": [],
@@ -708,21 +708,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 931,
+          "errors": 9807,
           "discards": 0,
-          "elapsed": 40.33053261991821
+          "elapsed": 432.77469117204913
         },
         "mwpf(c=200)": {
-          "errors": 409,
+          "errors": 4434,
           "discards": 0,
-          "elapsed": 546.2599307473861
+          "elapsed": 8162.415842562547
         }
       }
     },
-    "shots": 184000,
-    "duration": 558.9492359579999,
+    "shots": 1871942,
+    "duration": 8246.584408982,
     "min_time": 0.6570451659999996,
-    "finished_tasks": 16
+    "finished_tasks": 45
   },
   "6db17122ab5c012c3f5c4f816ac0daca6f8d6ea442508aa6666bd9da233fc5306a0669d2bcff4e46ef8f7effdba1914423ad08332162a46a9d6edc12985d40a3": {
     "args": [],
@@ -733,21 +733,21 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 526,
+          "errors": 18425,
           "discards": 0,
-          "elapsed": 67.66500027403276
+          "elapsed": 2761.8598316128578
         },
         "mwpf(c=200)": {
-          "errors": 124,
+          "errors": 4931,
           "discards": 0,
-          "elapsed": 771.7304339832532
+          "elapsed": 37480.314613365066
         }
       }
     },
-    "shots": 257932,
-    "duration": 806.695833041,
+    "shots": 8655283,
+    "duration": 38717.080963462,
     "min_time": 0.8003028750000001,
-    "finished_tasks": 18
+    "finished_tasks": 162
   },
   "a36599507a0d38f02d01e6c591c892ad86954e97b264ab6a911ee503125b27487067d22c361da6aba28d3c07ceef553d0ea80e8ed027faf988b3570b83cacc90": {
     "args": [],
@@ -758,20 +758,20 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 297,
+          "errors": 19051,
           "discards": 0,
-          "elapsed": 94.25466608901598
+          "elapsed": 7543.26152685194
         },
         "mwpf(c=200)": {
-          "errors": 70,
+          "errors": 4182,
           "discards": 0,
-          "elapsed": 789.0404744503439
+          "elapsed": 71977.36791039184
         }
       }
     },
-    "shots": 188422,
-    "duration": 862.635473872,
+    "shots": 11977545,
+    "duration": 77115.66753225104,
     "min_time": 1.3772015,
-    "finished_tasks": 18
+    "finished_tasks": 321
   }
 }

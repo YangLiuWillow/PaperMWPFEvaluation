@@ -21,7 +21,7 @@ p_d_vec = [
     ("0.05", [3, 5, 7, 9, 11]),
     ("0.02", [3, 5, 7, 9, 11]),
     ("0.015", [11]),  # add this data point to check the behavior
-    ("0.01", [11]),  # add this data point to check the behavior
+    # ("0.01", [11]),  # add this data point to check the behavior
     ("0.03", [11]),
     ("0.04", [11]),
     # the mwpf(c=50) seems to go across the chromobius line at p=0.01 and I need
