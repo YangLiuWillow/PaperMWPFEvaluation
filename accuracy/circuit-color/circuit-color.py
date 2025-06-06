@@ -5,13 +5,18 @@ You need to put the chromobius package under the `../chromobius` folder of the g
 For example, if the git repo is `~/GitHub/qec-lego-bench`, then you need to put the chromobius package under `~/GitHub/chromobius`.
 
 
+To debug, use the following command to generate a circuit and then test the logical error rate:
+```
+
+~/Documents/GitHub/chromobius/tools/gen_circuits --out_dir ./circuits --stdout --style midout_color_code_X --noise_model uniform --diameter 3 --rounds 3 --noise_strength 0.003 > ./circuits/test.stim && python3 -m qec_lego_bench logical-error-rate 'file(filepath=./circuits/test.stim)' --num-workers=10 --max-shots=1_000_000_000 --decoder 'mwpf(c=200)'
+```
+
 """
 
 import os
 import git
 import arguably
 import multiprocessing
-from slugify import slugify
 
 local_maximum_jobs: int = multiprocessing.cpu_count()
 
@@ -25,7 +30,26 @@ notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
 decoder_vec = ["mwpf(c=0)", "mwpf(c=200)", "chromobius"]
 p_d_vec = [
-    ("0.003", [3, 5, 7, 9]),
+    # ("0.015", [3, 5, 7]),
+    # ("0.01", [3, 5, 7]),
+    # ("0.007", [3, 5, 7]),
+    # ("0.005", [3, 5, 7]),
+    # ("0.003", [3, 5, 7]),
+    ("0.002", [3, 5, 7]),
+    ("0.001", [3, 5, 7]),
+    ("0.005", [3, 5, 7]),
+    ("0.003", [3, 5, 7]),
+    ("0.002", [3, 5, 7]),
+    ("0.001", [3, 5, 7]),
+    ("0.0005", [3, 5]),
+    ("0.0005", [3, 5]),
+    ("0.0003", [3, 5]),
+    ("0.0002", [3, 5]),
+    ("0.0001", [3]),
+    ("0.00005", [3]),
+    ("0.00003", [3]),
+    ("0.00002", [3]),
+    ("0.00001", [3]),
 ]
 
 if not os.path.exists(circuits_dir):
@@ -50,7 +74,7 @@ for p, d_vec in p_d_vec:
             with open(filepath, "w") as f:
                 f.write(result)
         code_vec.append(f"file(filepath={filepath})")
-        noise_vec.append(f"none")
+        noise_vec.append(f"none(p={p})")
 
 
 @arguably.command

@@ -64,5 +64,695 @@
     "duration": 0,
     "min_time": null,
     "finished_tasks": 0
+  },
+  "aaf33bf15fab8f09d8c95cc4cb9c58546666b63e5e5d60827b98977ce5ca6ecb8546f1cfef8850f5b911bddeba7fe3187458d59f79ac759f136bd7dfed59f511": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.002.stim)",
+      "noise": "none(p=0.002)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.12859347268628576
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.0871593190102084
+        },
+        "chromobius": {
+          "errors": 2,
+          "discards": 0,
+          "elapsed": 0.0037281018892480504
+        }
+      }
+    },
+    "shots": 32,
+    "duration": 0.5425457490000001,
+    "min_time": 0.07168858300000025,
+    "finished_tasks": 6
+  },
+  "10041e8deb5fae2af6172c95d3a75f3f4a055885c7d337fc1d5076075a60b9b0592129ae9dc86d22464cbcc8344dcf6bf9cb4a2d9ed87f1882463de0a65aa6d7": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/5-0.002.stim)",
+      "noise": "none(p=0.002)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 0.3464961503133444
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.606152250780724
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.015867208130657673
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 1.7343432500000002,
+    "min_time": 0.325491875,
+    "finished_tasks": 5
+  },
+  "7d3f7e2629894f4d7a7900f8273a21214e90fadb361c5bb4b097ba4d3033b9d8e14bfa22a66f826f09e6e9ad3d1045e316799834d05620f496313e3e1f2476e2": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/7-0.002.stim)",
+      "noise": "none(p=0.002)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 1.097153167007491
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.9590127081610262
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.03064525010995567
+        }
+      }
+    },
+    "shots": 3,
+    "duration": 3.0530424160000003,
+    "min_time": 0.9493367910000001,
+    "finished_tasks": 3
+  },
+  "8003de409923a32fa9091ddcba77d05b604c08797ea0c39adad2ae4335eadc7e23c1feb12d5a9d83a921e86fe7405b0c4566b14f5ba6cf25468c05e83cbe3a37": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.001.stim)",
+      "noise": "none(p=0.001)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 2,
+          "discards": 0,
+          "elapsed": 0.08478214827676614
+        },
+        "mwpf(c=200)": {
+          "errors": 2,
+          "discards": 0,
+          "elapsed": 0.1031610410261367
+        },
+        "chromobius": {
+          "errors": 2,
+          "discards": 0,
+          "elapsed": 0.006967731301362315
+        }
+      }
+    },
+    "shots": 32,
+    "duration": 0.4566206670000004,
+    "min_time": 0.071818125,
+    "finished_tasks": 6
+  },
+  "249c8292dbf48e6f852e94b903f19d66532935f782b4d0864bec5bc5e7372a68d6fbb9844211a563f7e23db254243f63ccdf3387940da2b8323aa810a21d6be1": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/5-0.001.stim)",
+      "noise": "none(p=0.001)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.3774778590304777
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.2949836253731822
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.012951626093126833
+        }
+      }
+    },
+    "shots": 8,
+    "duration": 1.2738364990000002,
+    "min_time": 0.31343662499999997,
+    "finished_tasks": 4
+  },
+  "45d3ce9fcf3c4118d0c643fa81e70aa32457af6ba1e8a066e7892b89bbbc2b183399f45513f2cc207a683426ed9438fbe1097d748e83522e7e946e0c44c24591": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/7-0.001.stim)",
+      "noise": "none(p=0.001)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.9156617079861462
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.7414715831400827
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.028755542123690248
+        }
+      }
+    },
+    "shots": 3,
+    "duration": 2.8032143329999997,
+    "min_time": 0.933792,
+    "finished_tasks": 3
+  },
+  "82e067acb3b4fb32d5257015536f9d98d821dccdf79430911ebd054a03569b3e3e4d6ef576b89a3d8f66d30db5aed5dcc0e8b2a07299fe2899c58dce8588510c": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.005.stim)",
+      "noise": "none(p=0.005)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 2,
+          "discards": 0,
+          "elapsed": 0.06183315419392394
+        },
+        "mwpf(c=200)": {
+          "errors": 2,
+          "discards": 0,
+          "elapsed": 0.04711367176025219
+        },
+        "chromobius": {
+          "errors": 2,
+          "discards": 0,
+          "elapsed": 0.003957458073273301
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 0.37262112599999997,
+    "min_time": 0.070149209,
+    "finished_tasks": 5
+  },
+  "fe3250ba9d4aff8b5e7001245bb8e11381c6b26a8465757f61355603605fe465c7a90e1e9366a8d808c02f3f534fe7f9e7767964a7a8ed93466d778076c92918": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/5-0.005.stim)",
+      "noise": "none(p=0.005)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 2,
+          "discards": 0,
+          "elapsed": 0.22825708391610533
+        },
+        "mwpf(c=200)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 0.2723195409635082
+        },
+        "chromobius": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 0.007626791018992662
+        }
+      }
+    },
+    "shots": 2,
+    "duration": 0.683846792,
+    "min_time": 0.330967375,
+    "finished_tasks": 2
+  },
+  "d01d701251a871eaa522f7e11874367015b3819e311de6e4a8837541dc79ff7950189a111d7e5b905ca1d6beb8e32319589873113cc93fb39de4b7571455a123": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/7-0.005.stim)",
+      "noise": "none(p=0.005)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 0.4085054580355063
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.42043529194779694
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.013802374945953488
+        }
+      }
+    },
+    "shots": 1,
+    "duration": 1.0533423329999998,
+    "min_time": 1.0533423329999998,
+    "finished_tasks": 1
+  },
+  "e88083cff8b1c52126241272e42817e37217f31aaa7b4bc399a390cd64a41f316b32ac0380af9c8b27303997b121544dccd9e4306221d905bcf3f737b2b6fe5c": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.003.stim)",
+      "noise": "none(p=0.003)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.10407223322960947
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.06547993590079602
+        },
+        "chromobius": {
+          "errors": 2,
+          "discards": 0,
+          "elapsed": 0.002471286104992032
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 0.3812304180000001,
+    "min_time": 0.07146920899999998,
+    "finished_tasks": 5
+  },
+  "843989047f5d43e519f4d895e54790040045727bf45cdcdec7ad2a99353b1fac5cfb38f79d127d557719f1c43d2c6fe7a8aac8a1fd234b31a2bf7d67790d73f3": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/5-0.003.stim)",
+      "noise": "none(p=0.003)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 0.5869779569329694
+        },
+        "mwpf(c=200)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 0.5462613318813965
+        },
+        "chromobius": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 0.01518600108101964
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 1.7535961660000001,
+    "min_time": 0.328446541,
+    "finished_tasks": 5
+  },
+  "058697f875a7b509136fdbdb8045c1599387a183c7007c20d99ddaaa072c62a5a329c903f2c3540620d2ecb1cd2c60684cd31825429f5032b212eec37bf9bcb7": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/7-0.003.stim)",
+      "noise": "none(p=0.003)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.6019837080966681
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.5661392500624061
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.026825833949260414
+        }
+      }
+    },
+    "shots": 2,
+    "duration": 1.950301417,
+    "min_time": 0.962567375,
+    "finished_tasks": 2
+  },
+  "caa24a15e7efa5d7dc380d1207affa016290c9a3b59152e280fe3defcce6e67e5e300222245a021b2a7752b33f4f776f5ce8d531e6d535353f2ca01ad2e2eba5": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.0005.stim)",
+      "noise": "none(p=0.0005)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 0.08084249892272055
+        },
+        "mwpf(c=200)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 0.057822250722286604
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.0022309591295197606
+        }
+      }
+    },
+    "shots": 8,
+    "duration": 0.29405500000000034,
+    "min_time": 0.07113575,
+    "finished_tasks": 4
+  },
+  "7e6893cbfc586b74c4cb9f9f11203c2f67592e8c6f63a64946102deda8c49c9580ac7f302a83115a69ac9c08f0210a806016166efe9dc1c3b584fa315f416cc0": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/5-0.0005.stim)",
+      "noise": "none(p=0.0005)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.310525929943348
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.41243066801689565
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.010971041667896012
+        }
+      }
+    },
+    "shots": 8,
+    "duration": 1.3592942080000001,
+    "min_time": 0.320833875,
+    "finished_tasks": 4
+  },
+  "10084cef572c6f3d590c7ae46bf052646d6f6e1bd196ba44f8ed0331927a985797ec18de474a11a5142fa8bea54c0d870888b324af940d7f2a707f7a1cd216fc": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.0003.stim)",
+      "noise": "none(p=0.0003)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.05111745865239451
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.07890684662076335
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.002158791059628129
+        }
+      }
+    },
+    "shots": 8,
+    "duration": 0.3040719999999997,
+    "min_time": 0.07095325000000008,
+    "finished_tasks": 4
+  },
+  "eb15e4a1b210c503917a5941357e79736ff2cb7e2da95defee1ff744b5f1fd96a9203d25c3350b427fc3e60e658dc43a3c74c1a794a515e0ca803a243624189f": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/5-0.0003.stim)",
+      "noise": "none(p=0.0003)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.3898627918679267
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.38554125104565173
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.013437250590262313
+        }
+      }
+    },
+    "shots": 8,
+    "duration": 1.3413654159999997,
+    "min_time": 0.31820012500000006,
+    "finished_tasks": 4
+  },
+  "97c20e4fcd314a7b51855612ec0015f1a996978838ddc2cf9c512677272dbe312adca6f55e5fb98e7515171fd8fc4db92fe57018c5d18c793e56372ec1fac134": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.0002.stim)",
+      "noise": "none(p=0.0002)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.11784648127476907
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.08339217855661575
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.0037251514149829745
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 0.37002295800000023,
+    "min_time": 0.07105045800000004,
+    "finished_tasks": 5
+  },
+  "691d5f5e035f9327a5cde22f3518286a1c214dcbab735191b3201feb2031e84288549664666ad056e08eed93831b4394b7b21d99703e96d4f5367283f86ec3cd": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/5-0.0002.stim)",
+      "noise": "none(p=0.0002)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.317779514240101
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.35242062504403293
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.013099581934511662
+        }
+      }
+    },
+    "shots": 8,
+    "duration": 1.3420892489999998,
+    "min_time": 0.30733679199999986,
+    "finished_tasks": 4
+  },
+  "1bcaf9208bae521b52df6a30892d57a122d03c6a2bb50e883ecaf9b77ae6813d2f47be10020a23bc12f12b073c98b5d81305f8c25014cff3d9f1de6ce3e04aea": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.0001.stim)",
+      "noise": "none(p=0.0001)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.09747100516688079
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.05737791478168219
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.0026656679110601544
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 0.36792383400000017,
+    "min_time": 0.06759775000000001,
+    "finished_tasks": 5
+  },
+  "fb8a3badce946c6862a2840eb704d2727e0d99c6b32c45886af192f15cf073cb16ef565c7bd8c2a65992dd1d5e61c8c980759f17e66c8ac16c635888c1be953d": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.00005.stim)",
+      "noise": "none(p=0.00005)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.09617049940529146
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.08074960321010577
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.0028778751147910953
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 0.3821103760000001,
+    "min_time": 0.07154808300000015,
+    "finished_tasks": 5
+  },
+  "81ad2f1931f4d92c6ca8edf64b3c5227faac4caf33fba4755bfd0567e100c7f295741fddf94edb797b9bead9f972fc85720177b78aff328840eb495af3a7b29c": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.00003.stim)",
+      "noise": "none(p=0.00003)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.08978470865016182
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.05884408135898411
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.0034268329618498683
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 0.37511795799999964,
+    "min_time": 0.07094874999999995,
+    "finished_tasks": 5
+  },
+  "85e09b0391af1c17afd19a52632e0692a185babd04f9a85bc9899f74113ebf36907e98bb2e7474912a97acf36aa6443c4888b11c0bbc0d73f5c0c4c382d7f98b": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.00002.stim)",
+      "noise": "none(p=0.00002)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.10937123477924615
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.11174482730815985
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.0023852067533880472
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 0.36910399900000035,
+    "min_time": 0.06947837500000001,
+    "finished_tasks": 5
+  },
+  "d3e4a83dfccc2fe7ce2d24adfee23570f965c1b2749926739e3e309900aea44b8e52359c48105131ad7b71dd2ab115ea860d11e7b9b99f086649af77dc19ab78": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.00001.stim)",
+      "noise": "none(p=0.00001)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.09416308300569654
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.06357516698716652
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.0033626665050784745
+        }
+      }
+    },
+    "shots": 16,
+    "duration": 0.3795769580000002,
+    "min_time": 0.06799262500000003,
+    "finished_tasks": 5
   }
 }
