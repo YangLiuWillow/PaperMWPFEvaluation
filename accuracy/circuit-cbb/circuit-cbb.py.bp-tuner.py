@@ -18,8 +18,8 @@ this_dir = os.path.dirname(os.path.abspath(__file__))
 assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
-code = "bb(n=90,k=8,d=10)"
-noise = "flip(p=0.02)"  # use a larger physical error rate because otherwise the simulation is too slow
+code = "cbb(n=90,k=8,d=10)"
+noise = "flip(p=0.001)"  # use a larger physical error rate because otherwise the simulation is too slow
 decoders = ["bposd"]
 
 

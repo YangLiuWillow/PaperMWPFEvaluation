@@ -1,0 +1,68 @@
+{
+  "8ef2edd1684562e821ebb4ef9e645aa60389cbe648e7587096994eda75bd0977bae9822b627531445bfdbe8beef7bad2decd45f10994d13d07aaf09a13c48f0c": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/3-0.003.stim)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.015837999992072582
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.01742895902134478
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 0.00048333394806832075
+        }
+      }
+    },
+    "shots": 1,
+    "duration": 0.069361333,
+    "min_time": 0.069361333,
+    "finished_tasks": 1
+  },
+  "77dfafbec6674886643b4eb32625db12d9dd6b666d76f42d828b21ba17783cd8740b764fee097b5a1d3c8e4c05efd0c53f5014eb0f0086df5e9a036d6f52549c": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/5-0.003.stim)",
+      "noise": "none"
+    },
+    "result": null,
+    "shots": 0,
+    "duration": 0,
+    "min_time": null,
+    "finished_tasks": 0
+  },
+  "92ddc50afa4b3349d2d44a20edaefbab21874ce421cdc32ecf83974729b19da27978a85d468402e3e8c8bd5f84b94cb7a443f265d5b0c0078227ce7804854e6c": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/7-0.003.stim)",
+      "noise": "none"
+    },
+    "result": null,
+    "shots": 0,
+    "duration": 0,
+    "min_time": null,
+    "finished_tasks": 0
+  },
+  "fda9d6924a1fb6b7bedcadc14f8d895134e4f6c12e69b91f49b5aac446326071647f4de2700c6c23e7639e5c4f76651fc3e14d8ab5234236c605ccd51de67311": {
+    "args": [],
+    "kwargs": {
+      "code": "file(filepath=/Users/wuyue/Documents/GitHub/PaperMWPFEvaluation/accuracy/circuit-color/circuits/9-0.003.stim)",
+      "noise": "none"
+    },
+    "result": null,
+    "shots": 0,
+    "duration": 0,
+    "min_time": null,
+    "finished_tasks": 0
+  }
+}
