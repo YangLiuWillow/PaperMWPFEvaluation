@@ -368,26 +368,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 4480,
+          "errors": 4496,
           "discards": 0,
-          "elapsed": 2.447254823127303
+          "elapsed": 2.4561787598001876
         },
         "mwpf(c=200)": {
-          "errors": 4151,
+          "errors": 4166,
           "discards": 0,
-          "elapsed": 63.29225578703511
+          "elapsed": 63.33035341088367
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 4182,
+          "errors": 4200,
           "discards": 0,
-          "elapsed": 2.3041063561648754
+          "elapsed": 2.3101272192632027
         }
       }
     },
-    "shots": 27156,
-    "duration": 67.824742897,
-    "min_time": 0.28732891699999996,
-    "finished_tasks": 11
+    "shots": 27256,
+    "duration": 68.06483971000003,
+    "min_time": 0.2400968130000365,
+    "finished_tasks": 12
   },
   "d5c6de42bd76d4af2f959cbd8f9b72002a1950410d4709643105a1638aa470262ab84472667feec4ff8c7f263eece5079f737ed5c40e0999836f600704371e98": {
     "args": [],
@@ -488,26 +488,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 621,
+          "errors": 9375,
           "discards": 0,
-          "elapsed": 1.519085210201152
+          "elapsed": 25.332989424640225
         },
         "mwpf(c=200)": {
-          "errors": 286,
+          "errors": 4316,
           "discards": 0,
-          "elapsed": 81.00321635595209
+          "elapsed": 1575.9252094784495
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 294,
+          "errors": 4629,
           "discards": 0,
-          "elapsed": 1.2667140816830447
+          "elapsed": 21.12603191933592
         }
       }
     },
-    "shots": 14474,
-    "duration": 84.53845938299999,
+    "shots": 206452,
+    "duration": 1600.380011502,
     "min_time": 0.2902817500000001,
-    "finished_tasks": 11
+    "finished_tasks": 18
   },
   "6e160e03c2fc037491866dc6287a2c48f7b102c2f8c58a9d5296764f0901826ecf2cd6cfadc4f5cf69d226d18e05611306c85179530657b711cd599d0daa0c97": {
     "args": [],
@@ -518,26 +518,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 18535,
+          "errors": 19059,
           "discards": 0,
-          "elapsed": 80.25204706012349
+          "elapsed": 82.39804676708891
         },
         "mwpf(c=200)": {
-          "errors": 6283,
+          "errors": 6457,
           "discards": 0,
-          "elapsed": 7893.867070402754
+          "elapsed": 8108.66348850526
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 4048,
+          "errors": 4175,
           "discards": 0,
-          "elapsed": 44.117683021634925
+          "elapsed": 45.34682507648513
         }
       }
     },
-    "shots": 376571,
-    "duration": 7788.431213450998,
+    "shots": 387083,
+    "duration": 8002.173563415999,
     "min_time": 0.5020757499999999,
-    "finished_tasks": 33
+    "finished_tasks": 35
   },
   "5ed252e136d04b0b52c971681b2068cb5623c9e0f22a0872e8285940f5398039dc7b2572f9b67b5c73ac9c8a79d622806b166114d2b1fb94f43bcc75361321c9": {
     "args": [],
@@ -548,26 +548,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 4504,
+          "errors": 4576,
           "discards": 0,
-          "elapsed": 6.644686276546008
+          "elapsed": 6.788233519678355
         },
         "mwpf(c=200)": {
-          "errors": 4097,
+          "errors": 4162,
           "discards": 0,
-          "elapsed": 48.3470974091189
+          "elapsed": 49.87550774955281
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 4309,
+          "errors": 4382,
           "discards": 0,
-          "elapsed": 4.322854265872413
+          "elapsed": 4.413407182267262
         }
       }
     },
-    "shots": 121378,
-    "duration": 59.17665438599999,
-    "min_time": 0.2721942500000001,
-    "finished_tasks": 11
+    "shots": 123643,
+    "duration": 61.50162081199971,
+    "min_time": 0.21262393399956636,
+    "finished_tasks": 14
   },
   "4127ee655428f429b6e730987f094d4a53558b0528d84dd5961f0a41a463013bd408fa0ef9b61096e2711cc511aa66f09e9f37a7648ef525a27af197e3c36c69": {
     "args": [],
@@ -578,26 +578,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 9928,
+          "errors": 11982,
           "discards": 0,
-          "elapsed": 64.51753911319462
+          "elapsed": 77.50414782873894
         },
         "mwpf(c=200)": {
-          "errors": 3492,
+          "errors": 4235,
           "discards": 0,
-          "elapsed": 1554.8914246866254
+          "elapsed": 1889.087284755399
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 3958,
+          "errors": 4788,
           "discards": 0,
-          "elapsed": 39.42867410979504
+          "elapsed": 47.141975019662624
         }
       }
     },
-    "shots": 716954,
-    "duration": 1588.6414556229997,
+    "shots": 854309,
+    "duration": 1927.9705194479993,
     "min_time": 0.309992625,
-    "finished_tasks": 18
+    "finished_tasks": 20
   },
   "621d5e38a5b0b61d5d16744e18559c2a44d9039bb072d7e5a88fee2e16ded0f9d5b4dac733cca0135c17967c1ddbc21746a9a6a7b52f13e8f72b6ed44a83f37e": {
     "args": [],
@@ -638,26 +638,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 2500,
+          "errors": 4495,
           "discards": 0,
-          "elapsed": 12.32303779279056
+          "elapsed": 23.310473111124523
         },
         "mwpf(c=200)": {
-          "errors": 2329,
+          "errors": 4194,
           "discards": 0,
-          "elapsed": 36.774183964690096
+          "elapsed": 67.31942536414323
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 2675,
+          "errors": 4886,
           "discards": 0,
-          "elapsed": 8.650102755011952
+          "elapsed": 15.899189360922826
         }
       }
     },
-    "shots": 257332,
-    "duration": 59.16984803699998,
+    "shots": 458665,
+    "duration": 106.19178120100005,
     "min_time": 0.23651241700000014,
-    "finished_tasks": 13
+    "finished_tasks": 14
   },
   "2332c15e6d0a6a94612d7bacb51deef42e1b2455a718c679deda3d96c1ef4e952102d91969ac937a13304dbd999cc2656d02a1e526e47317c52235d4d76b5fe1": {
     "args": [],
@@ -698,26 +698,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 44446,
+          "errors": 48682,
           "discards": 0,
-          "elapsed": 2751.981923314438
+          "elapsed": 3037.9126772081872
         },
         "mwpf(c=200)": {
-          "errors": 6387,
+          "errors": 6989,
           "discards": 0,
-          "elapsed": 14723.506986638402
+          "elapsed": 16222.718460244914
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 3943,
+          "errors": 4299,
           "discards": 0,
-          "elapsed": 1722.7702008421775
+          "elapsed": 1894.5483719511287
         }
       }
     },
-    "shots": 31987935,
-    "duration": 18494.595426771997,
+    "shots": 35048925,
+    "duration": 20375.479057050998,
     "min_time": 0.5933281670000001,
-    "finished_tasks": 69
+    "finished_tasks": 74
   },
   "ee64218538c4676fad8b27c82a540265204f2f53a2fd36fbc55b8d63d9caff09e73de46ea5551247ca600e67022998455eee81116e398949af589fdb0ddca3fb": {
     "args": [],
@@ -728,26 +728,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 1647,
+          "errors": 4661,
           "discards": 0,
-          "elapsed": 16.735126540335397
+          "elapsed": 53.25641387237505
         },
         "mwpf(c=200)": {
-          "errors": 1552,
+          "errors": 4400,
           "discards": 0,
-          "elapsed": 28.599111706487545
+          "elapsed": 87.79882045646896
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 1864,
+          "errors": 5263,
           "discards": 0,
-          "elapsed": 11.657954585128298
+          "elapsed": 38.29645570174482
         }
       }
     },
-    "shots": 422761,
-    "duration": 59.24698915199998,
+    "shots": 1203416,
+    "duration": 176.8433432930001,
     "min_time": 0.23445795800000013,
-    "finished_tasks": 14
+    "finished_tasks": 15
   },
   "a2c62a67d3dfb67d31f48b229857d440fb26cc10a340c1b9d827edf73b1c77007d3271738158590fecdd2ef30e90dcfaf535e834dcf9d37c11bdb267a5a744e3": {
     "args": [],
@@ -758,26 +758,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 20815,
+          "errors": 21034,
           "discards": 0,
-          "elapsed": 1488.9374509543097
+          "elapsed": 1508.5002097420854
         },
         "mwpf(c=200)": {
-          "errors": 4117,
+          "errors": 4161,
           "discards": 0,
-          "elapsed": 3330.622495595964
+          "elapsed": 3376.6562604732885
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 5541,
+          "errors": 5608,
           "discards": 0,
-          "elapsed": 1090.186170424785
+          "elapsed": 1103.635435230904
         }
       }
     },
-    "shots": 33910313,
-    "duration": 5678.196228652001,
+    "shots": 34289206,
+    "duration": 5755.523946567001,
     "min_time": 0.3324239999999996,
-    "finished_tasks": 38
+    "finished_tasks": 41
   },
   "15a63410bdcf73f541fd616e2074bf9f7cadd57768775d32b7b8b7b89ab86a5c6fec82855cea5f96dc2be97c386b48bf956beb129a9f2a16c60a25e8a728d029": {
     "args": [],
@@ -788,26 +788,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 20138,
+          "errors": 61352,
           "discards": 0,
-          "elapsed": 4906.123756618716
+          "elapsed": 15804.153067282796
         },
         "mwpf(c=200)": {
-          "errors": 2106,
+          "errors": 6295,
           "discards": 0,
-          "elapsed": 10069.570897241281
+          "elapsed": 32587.513027629713
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 1369,
+          "errors": 4185,
           "discards": 0,
-          "elapsed": 3691.2317976182676
+          "elapsed": 11649.788104168441
         }
       }
     },
-    "shots": 72693371,
-    "duration": 18021.031328267003,
+    "shots": 221213115,
+    "duration": 58085.14866746201,
     "min_time": 0.5867037500000007,
-    "finished_tasks": 72
+    "finished_tasks": 204
   },
   "dcadc63b3734159d0727701bb5f306cdd676dc4a8a7e5543a4567f75ed8d38c212d9aa2c57345d67c2abccd66e52d3fc51d00ee929f3bf1a609e311f65abfac1": {
     "args": [],
@@ -818,26 +818,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 779,
+          "errors": 4441,
           "discards": 0,
-          "elapsed": 24.335246338906394
+          "elapsed": 158.30454006660318
         },
         "mwpf(c=200)": {
-          "errors": 739,
+          "errors": 4262,
           "discards": 0,
-          "elapsed": 26.9112294181675
+          "elapsed": 175.80241137195645
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 938,
+          "errors": 5569,
           "discards": 0,
-          "elapsed": 19.73596483235312
+          "elapsed": 139.6932346248321
         }
       }
     },
-    "shots": 771538,
-    "duration": 72.23584760700001,
+    "shots": 4408245,
+    "duration": 460.6254303740003,
     "min_time": 0.23404933399999983,
-    "finished_tasks": 16
+    "finished_tasks": 18
   },
   "e13e2ece45c84c21346896d49df43157753577a546e479b84c622c86d79445b1914e99400a2539c54904d650ad40e27aadfdc3e1c3f26ed75f5339a942ef3fbe": {
     "args": [],
@@ -848,26 +848,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 13018,
+          "errors": 29414,
           "discards": 0,
-          "elapsed": 5665.760061397611
+          "elapsed": 13337.971723832288
         },
         "mwpf(c=200)": {
-          "errors": 1850,
+          "errors": 4161,
           "discards": 0,
-          "elapsed": 6901.102118768374
+          "elapsed": 16352.828014636767
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 2943,
+          "errors": 6668,
           "discards": 0,
-          "elapsed": 4677.442034827589
+          "elapsed": 10763.493803945405
         }
       }
     },
-    "shots": 145147085,
-    "duration": 16649.212064265997,
+    "shots": 328333561,
+    "duration": 39223.779497339005,
     "min_time": 0.2913940420000003,
-    "finished_tasks": 74
+    "finished_tasks": 150
   },
   "fc33dc6c4c78c4c0567d38148086fc373e52dc7eaf0333ff2ec29818bc19a647292fd04c3169bf0ed1d6f140c3c105860ab5ea3c124852a8525f69655a0f5559": {
     "args": [],
@@ -878,26 +878,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 389,
+          "errors": 4850,
           "discards": 0,
-          "elapsed": 24.430821177163175
+          "elapsed": 335.38414164724634
         },
         "mwpf(c=200)": {
-          "errors": 359,
+          "errors": 4694,
           "discards": 0,
-          "elapsed": 25.4062119847174
+          "elapsed": 354.6500854466408
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 537,
+          "errors": 6390,
           "discards": 0,
-          "elapsed": 22.323418274599526
+          "elapsed": 307.3878327245648
         }
       }
     },
-    "shots": 844952,
-    "duration": 73.77818957199997,
+    "shots": 10024417,
+    "duration": 968.8783135140002,
     "min_time": 0.23497920900000047,
-    "finished_tasks": 17
+    "finished_tasks": 22
   },
   "dbe5124e8722b5873f451b45ec5b297d30bf8618c3a3785d9c103f9aede5bf7fa7c75bc17302b270ac33a7b220af9d1e84d13d8884c7725033f06c02760170bb": {
     "args": [],
@@ -908,26 +908,26 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 3941,
+          "errors": 4209,
           "discards": 0,
-          "elapsed": 1069.9675459313212
+          "elapsed": 1141.4881906413293
         },
         "mwpf(c=200)": {
-          "errors": 3922,
+          "errors": 4165,
           "discards": 0,
-          "elapsed": 1080.239655626318
+          "elapsed": 1152.4652935874062
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 5583,
+          "errors": 5963,
           "discards": 0,
-          "elapsed": 1003.7846927662981
+          "elapsed": 1069.021276621223
         }
       }
     },
-    "shots": 37026659,
-    "duration": 3048.0812231830005,
+    "shots": 39491802,
+    "duration": 3252.779260893001,
     "min_time": 0.26787429100000004,
-    "finished_tasks": 29
+    "finished_tasks": 32
   },
   "72c3235194527934dd4d271ccdb09d3562bff7ac352a47f2d7676c6a3e8bad8d7352fa47ab1cb9a704d1c5ab03bc1c6086f8b521e58f05062bafd12f2e39a2bf": {
     "args": [],
@@ -968,25 +968,25 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 1373,
+          "errors": 4163,
           "discards": 0,
-          "elapsed": 4931.641113740579
+          "elapsed": 15734.50402282757
         },
         "mwpf(c=200)": {
-          "errors": 1335,
+          "errors": 4175,
           "discards": 0,
-          "elapsed": 4948.505776943887
+          "elapsed": 15746.75859562756
         },
         "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
-          "errors": 2110,
+          "errors": 6420,
           "discards": 0,
-          "elapsed": 5158.774599850161
+          "elapsed": 16347.837452576405
         }
       }
     },
-    "shots": 212673198,
-    "duration": 14553.816740572001,
+    "shots": 652319538,
+    "duration": 46602.719591571025,
     "min_time": 0.26997441700000024,
-    "finished_tasks": 73
+    "finished_tasks": 189
   }
 }
