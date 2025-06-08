@@ -148,31 +148,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 26,
+          "errors": 178,
           "discards": 0,
-          "elapsed": 4.1025333209789085
+          "elapsed": 130.37963910551412
         },
         "fb": {
-          "errors": 29,
+          "errors": 174,
           "discards": 0,
-          "elapsed": 4.377037088742165
+          "elapsed": 131.620755926956
         },
         "mwpf(c=0)": {
-          "errors": 28,
+          "errors": 216,
           "discards": 0,
-          "elapsed": 10899.125155291043
+          "elapsed": 87033.08096813178
         },
         "mwpf(c=200)": {
-          "errors": 39,
+          "errors": 206,
           "discards": 0,
-          "elapsed": 10219.969670035101
+          "elapsed": 86462.8731465663
         }
       }
     },
-    "shots": 64,
-    "duration": 22805.232231978,
-    "min_time": 81.41333370800001,
-    "finished_tasks": 7
+    "shots": 412,
+    "duration": 301081.0080383758,
+    "min_time": 26.34055166500184,
+    "finished_tasks": 292
   },
   "570999fb184697dfad477f613f1b65f01d167bc4edfec66fb129414f3b8346d48178058949ebb155b8369abddfe5c5ecd324863113055ee7538b5d8b8496a958": {
     "args": [],
@@ -498,31 +498,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 5183,
+          "errors": 5567,
           "discards": 0,
-          "elapsed": 1549.994174927764
+          "elapsed": 1666.2806909735507
         },
         "fb": {
-          "errors": 4262,
+          "errors": 4574,
           "discards": 0,
-          "elapsed": 1543.5067617190787
+          "elapsed": 1659.0610832271338
         },
         "mwpf(c=0)": {
-          "errors": 5203,
+          "errors": 5662,
           "discards": 0,
-          "elapsed": 234034.65473805545
+          "elapsed": 252309.9678298958
         },
         "mwpf(c=200)": {
-          "errors": 5205,
+          "errors": 5652,
           "discards": 0,
-          "elapsed": 870217.0976716637
+          "elapsed": 934580.4274199251
         }
       }
     },
-    "shots": 97298,
-    "duration": 1217959.2300932584,
+    "shots": 104509,
+    "duration": 1309534.3304177693,
     "min_time": 9.383743458000001,
-    "finished_tasks": 6898
+    "finished_tasks": 7415
   },
   "2f3ddb9a2ca41de037786bfe49582ecf1fbe81ac67d27271fdae784c7c75e96d4945c21b3973fdf7115d21ed3c9e7356ce9e58c867b99ebc1ff75340bdd68c05": {
     "args": [],
@@ -638,31 +638,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 3072,
+          "errors": 6097,
           "discards": 0,
-          "elapsed": 969.1832554214903
+          "elapsed": 1908.9752945873606
         },
         "fb": {
-          "errors": 2490,
+          "errors": 4994,
           "discards": 0,
-          "elapsed": 842.1623335126814
+          "elapsed": 1641.0744836179977
         },
         "mwpf(c=0)": {
-          "errors": 2347,
+          "errors": 4679,
           "discards": 0,
-          "elapsed": 20558.051090400262
+          "elapsed": 40189.406979483276
         },
         "mwpf(c=200)": {
-          "errors": 2157,
+          "errors": 4259,
           "discards": 0,
-          "elapsed": 1165178.872595058
+          "elapsed": 2265241.4154687785
         }
       }
     },
-    "shots": 272400,
-    "duration": 1228396.2678424928,
+    "shots": 531176,
+    "duration": 2390440.1832989906,
     "min_time": 3.014848875,
-    "finished_tasks": 6976
+    "finished_tasks": 13597
   },
   "906280cf16e6ff453afd4ee7fb28fee55837dbe066879aa9945b7d4d1238951205befe05fb77337c2722e885cc5f28c26ef4a4deb970b7dd91b9559608866e23": {
     "args": [],
@@ -673,31 +673,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 1292,
+          "errors": 5098,
           "discards": 0,
-          "elapsed": 1402.126927802481
+          "elapsed": 5836.593211859232
         },
         "fb": {
-          "errors": 1016,
+          "errors": 4003,
           "discards": 0,
-          "elapsed": 1219.4615530855353
+          "elapsed": 5016.977952595551
         },
         "mwpf(c=0)": {
-          "errors": 1075,
+          "errors": 4371,
           "discards": 0,
-          "elapsed": 40652.57993909861
+          "elapsed": 164634.1758844183
         },
         "mwpf(c=200)": {
-          "errors": 1034,
+          "errors": 4222,
           "discards": 0,
-          "elapsed": 1151278.9136637647
+          "elapsed": 4611415.050668747
         }
       }
     },
-    "shots": 145113,
-    "duration": 1281876.147364778,
+    "shots": 589608,
+    "duration": 5153670.893976233,
     "min_time": 7.584024374999984,
-    "finished_tasks": 7247
+    "finished_tasks": 29473
   },
   "2c48360fa0128ffee51d61178e9f1e2877f8ca5677c590f051e3606ff936387de2a0ea0537bcb867c8834238cbed77d50ea1e0f054faf37ea5b546d0a1676725": {
     "args": [],
@@ -778,31 +778,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 7363,
+          "errors": 8787,
           "discards": 0,
-          "elapsed": 1436.634450728041
+          "elapsed": 1706.8688922679569
         },
         "fb": {
-          "errors": 6243,
+          "errors": 7470,
           "discards": 0,
-          "elapsed": 1542.6248786750264
+          "elapsed": 1837.6495706861215
         },
         "mwpf(c=0)": {
-          "errors": 4676,
+          "errors": 5552,
           "discards": 0,
-          "elapsed": 13814.962615422279
+          "elapsed": 16429.15836847097
         },
         "mwpf(c=200)": {
-          "errors": 3230,
+          "errors": 3843,
           "discards": 0,
-          "elapsed": 1231030.9264389102
+          "elapsed": 1462656.6139101076
         }
       }
     },
-    "shots": 3601308,
-    "duration": 1246104.7323705049,
+    "shots": 4288262,
+    "duration": 1480973.051709451,
     "min_time": 1.232037917,
-    "finished_tasks": 6944
+    "finished_tasks": 8266
   },
   "39fd4a2fa5d4cad2f3b0d26d69d501af0c0e2c6c74660362a8cf06a683d1825aac8b8912fade7da70562287173875c0e656e79966be41dfe307a2627cbda2a3c": {
     "args": [],
@@ -813,31 +813,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 1107,
+          "errors": 4574,
           "discards": 0,
-          "elapsed": 1521.6441121746936
+          "elapsed": 6240.440356643278
         },
         "fb": {
-          "errors": 876,
+          "errors": 3730,
           "discards": 0,
-          "elapsed": 1557.3444065066578
+          "elapsed": 6544.153619458799
         },
         "mwpf(c=0)": {
-          "errors": 704,
+          "errors": 2909,
           "discards": 0,
-          "elapsed": 14172.075290202896
+          "elapsed": 59595.51312464057
         },
         "mwpf(c=200)": {
-          "errors": 572,
+          "errors": 2316,
           "discards": 0,
-          "elapsed": 1264752.9726405095
+          "elapsed": 5226902.304890451
         }
       }
     },
-    "shots": 1189914,
-    "duration": 1298519.1386203677,
+    "shots": 5005651,
+    "duration": 5378025.391938187,
     "min_time": 2.878579792,
-    "finished_tasks": 7331
+    "finished_tasks": 30283
   },
   "7fe3411905a6f0274df4423a97f8d9ce21b9cc771800dc478a46aee754d26fe46294d8e9d568d3453ccd029fa001828ba8d0d838ba23bce65489276d92b30e3f": {
     "args": [],
@@ -848,31 +848,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 278,
+          "errors": 922,
           "discards": 0,
-          "elapsed": 2181.735555369679
+          "elapsed": 7413.60121817526
         },
         "fb": {
-          "errors": 209,
+          "errors": 713,
           "discards": 0,
-          "elapsed": 2221.2538302916723
+          "elapsed": 7630.227959088441
         },
         "mwpf(c=0)": {
-          "errors": 184,
+          "errors": 638,
           "discards": 0,
-          "elapsed": 20805.634761623292
+          "elapsed": 69978.56794428876
         },
         "mwpf(c=200)": {
-          "errors": 162,
+          "errors": 562,
           "discards": 0,
-          "elapsed": 1667367.5624716855
+          "elapsed": 5546833.017589132
         }
       }
     },
-    "shots": 714879,
-    "duration": 1746304.1673686157,
+    "shots": 2390083,
+    "duration": 5849461.433516771,
     "min_time": 6.173209457999995,
-    "finished_tasks": 9636
+    "finished_tasks": 32584
   },
   "f6d7a71ee2b01fccda01f8890feb030982d746accfc8159a591304581d75c7c89f3d509f805f44f3e0a44429a118ac9cab6ea7e6262322838ef73259fb164508": {
     "args": [],
@@ -953,31 +953,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 5457,
+          "errors": 11091,
           "discards": 0,
-          "elapsed": 3295.2387019799403
+          "elapsed": 6586.067182548596
         },
         "fb": {
-          "errors": 4559,
+          "errors": 9294,
           "discards": 0,
-          "elapsed": 3463.0552861113397
+          "elapsed": 6940.77135899687
         },
         "mwpf(c=0)": {
-          "errors": 3118,
+          "errors": 6362,
           "discards": 0,
-          "elapsed": 24120.48531916324
+          "elapsed": 48382.859023843
         },
         "mwpf(c=200)": {
-          "errors": 2031,
+          "errors": 4097,
           "discards": 0,
-          "elapsed": 1221173.4014014287
+          "elapsed": 2434882.8554263273
         }
       }
     },
-    "shots": 13499328,
-    "duration": 1247443.805016516,
+    "shots": 27088534,
+    "duration": 2488749.709113035,
     "min_time": 1.3243231249999994,
-    "finished_tasks": 7002
+    "finished_tasks": 13956
   },
   "cfa91dcc74c4ffc772035efb4e317350a422d6b8b87847e05700b9c38ef1828c05370353a151f712f14a93b5400f793948d85d6c315ad64c5e8e8916135a74a5": {
     "args": [],
@@ -988,31 +988,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 638,
+          "errors": 2464,
           "discards": 0,
-          "elapsed": 3806.0212764171347
+          "elapsed": 14363.174989480514
         },
         "fb": {
-          "errors": 495,
+          "errors": 1967,
           "discards": 0,
-          "elapsed": 3988.687050732143
+          "elapsed": 15010.720823269508
         },
         "mwpf(c=0)": {
-          "errors": 346,
+          "errors": 1398,
           "discards": 0,
-          "elapsed": 25933.303877784325
+          "elapsed": 96939.96690928961
         },
         "mwpf(c=200)": {
-          "errors": 259,
+          "errors": 1013,
           "discards": 0,
-          "elapsed": 1468563.355816848
+          "elapsed": 5451436.069525674
         }
       }
     },
-    "shots": 5483479,
-    "duration": 1507658.552268225,
+    "shots": 20459893,
+    "duration": 5626579.203948942,
     "min_time": 2.7112876250000006,
-    "finished_tasks": 8247
+    "finished_tasks": 31175
   },
   "92207b13908bd796ec4b3d5990ad8af5e0153e4c631b23ad185bc0fc29853a57a3063b1ccf7fde1fc9b959662ac17f4ff15e7a0a1c21df3d59e09b0b2ecd40e3": {
     "args": [],
@@ -1023,31 +1023,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 136,
+          "errors": 333,
           "discards": 0,
-          "elapsed": 7069.670796628636
+          "elapsed": 18228.95622626781
         },
         "fb": {
-          "errors": 104,
+          "errors": 258,
           "discards": 0,
-          "elapsed": 7408.870911340637
+          "elapsed": 19097.92575894577
         },
         "mwpf(c=0)": {
-          "errors": 81,
+          "errors": 187,
           "discards": 0,
-          "elapsed": 47191.910040591945
+          "elapsed": 119195.32054424555
         },
         "mwpf(c=200)": {
-          "errors": 65,
+          "errors": 156,
           "discards": 0,
-          "elapsed": 2657218.3709331807
+          "elapsed": 6672320.646206827
         }
       }
     },
-    "shots": 4592080,
-    "duration": 2751889.6837876877,
+    "shots": 11351901,
+    "duration": 6984206.588021758,
     "min_time": 5.552337417,
-    "finished_tasks": 15032
+    "finished_tasks": 37976
   },
   "51f5498d48870edee602384212b93a4ce2bdb9339a587796b3016b33532a8038f0ed60e03cd23c77fa7b4c0b230151d38f794853b1c78d8c2ec697d6635bd298": {
     "args": [],
@@ -1128,31 +1128,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 2681,
+          "errors": 11637,
           "discards": 0,
-          "elapsed": 12829.706963984874
+          "elapsed": 54365.78458882631
         },
         "fb": {
-          "errors": 2182,
+          "errors": 9432,
           "discards": 0,
-          "elapsed": 13013.052206249246
+          "elapsed": 55094.53438794129
         },
         "mwpf(c=0)": {
-          "errors": 1445,
+          "errors": 6209,
           "discards": 0,
-          "elapsed": 92881.2153241513
+          "elapsed": 392992.6102853577
         },
         "mwpf(c=200)": {
-          "errors": 842,
+          "errors": 3526,
           "discards": 0,
-          "elapsed": 1176603.3113708098
+          "elapsed": 4912164.229602479
         }
       }
     },
-    "shots": 106668721,
-    "duration": 1286555.389869587,
+    "shots": 451353632,
+    "duration": 5385957.803042728,
     "min_time": 1.3199956670000006,
-    "finished_tasks": 7151
+    "finished_tasks": 30089
   },
   "333930f0a647ea6347d1bd0784fd02212d3fe551216e7380fde36c66e866b95ea1702ba6a7cef41a2e6a1a8a06465c99dbd59e7177d7890cb35854b0ccd20063": {
     "args": [],
