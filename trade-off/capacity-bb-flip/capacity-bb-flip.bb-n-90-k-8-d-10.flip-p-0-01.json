@@ -1,0 +1,167 @@
+{
+  "e13e2ece45c84c21346896d49df43157753577a546e479b84c622c86d79445b1914e99400a2539c54904d650ad40e27aadfdc3e1c3f26ed75f5339a942ef3fbe": {
+    "args": [],
+    "kwargs": {
+      "code": "bb(n=90,k=8,d=10)",
+      "noise": "flip(p=0.01)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 6311,
+          "discards": 0,
+          "elapsed": 1643.6033544485238
+        },
+        "mwpf(c=1)": {
+          "errors": 6251,
+          "discards": 0,
+          "elapsed": 1638.9113435347942
+        },
+        "mwpf(c=2)": {
+          "errors": 6331,
+          "discards": 0,
+          "elapsed": 1654.0385927747327
+        },
+        "mwpf(c=3)": {
+          "errors": 6230,
+          "discards": 0,
+          "elapsed": 1647.1204474391502
+        },
+        "mwpf(c=4)": {
+          "errors": 6219,
+          "discards": 0,
+          "elapsed": 1676.7538067537432
+        },
+        "mwpf(c=5)": {
+          "errors": 6267,
+          "discards": 0,
+          "elapsed": 1671.2131589953203
+        },
+        "mwpf(c=6)": {
+          "errors": 6226,
+          "discards": 0,
+          "elapsed": 1664.6988213214677
+        },
+        "mwpf(c=7)": {
+          "errors": 6272,
+          "discards": 0,
+          "elapsed": 1653.7505937506896
+        },
+        "mwpf(c=8)": {
+          "errors": 6204,
+          "discards": 0,
+          "elapsed": 1664.9029943237808
+        },
+        "mwpf(c=9)": {
+          "errors": 6083,
+          "discards": 0,
+          "elapsed": 1695.5440777548438
+        },
+        "mwpf(c=10)": {
+          "errors": 5914,
+          "discards": 0,
+          "elapsed": 1714.647281944185
+        },
+        "mwpf(c=15)": {
+          "errors": 3788,
+          "discards": 0,
+          "elapsed": 1747.9435919127538
+        },
+        "mwpf(c=20)": {
+          "errors": 1708,
+          "discards": 0,
+          "elapsed": 1785.3359539924077
+        },
+        "mwpf(c=25)": {
+          "errors": 1262,
+          "discards": 0,
+          "elapsed": 1805.0552669943634
+        },
+        "mwpf(c=30)": {
+          "errors": 1166,
+          "discards": 0,
+          "elapsed": 1806.5621427291849
+        },
+        "mwpf(c=35)": {
+          "errors": 1135,
+          "discards": 0,
+          "elapsed": 1834.7340246209485
+        },
+        "mwpf(c=40)": {
+          "errors": 1094,
+          "discards": 0,
+          "elapsed": 1843.8053797069201
+        },
+        "mwpf(c=45)": {
+          "errors": 1082,
+          "discards": 0,
+          "elapsed": 1847.2306073705206
+        },
+        "mwpf(c=50)": {
+          "errors": 1087,
+          "discards": 0,
+          "elapsed": 1873.9945054035084
+        },
+        "mwpf(c=100)": {
+          "errors": 988,
+          "discards": 0,
+          "elapsed": 1960.7852973339766
+        },
+        "mwpf(c=150)": {
+          "errors": 862,
+          "discards": 0,
+          "elapsed": 2021.3676789628234
+        },
+        "mwpf(c=200)": {
+          "errors": 873,
+          "discards": 0,
+          "elapsed": 2085.088425261351
+        },
+        "mwpf(c=300)": {
+          "errors": 797,
+          "discards": 0,
+          "elapsed": 2170.8572736302067
+        },
+        "mwpf(c=500)": {
+          "errors": 762,
+          "discards": 0,
+          "elapsed": 2316.4537365046153
+        },
+        "mwpf(c=1000)": {
+          "errors": 752,
+          "discards": 0,
+          "elapsed": 2392.069512999333
+        },
+        "bposd(max_iter=50;ms_scaling_factor=0.9)": {
+          "errors": 10427,
+          "discards": 0,
+          "elapsed": 1800.7742219996953
+        },
+        "bposd(max_iter=100;ms_scaling_factor=0.9)": {
+          "errors": 2736,
+          "discards": 0,
+          "elapsed": 1821.462957495482
+        },
+        "bposd(max_iter=600;ms_scaling_factor=0.9)": {
+          "errors": 1450,
+          "discards": 0,
+          "elapsed": 1813.7707610127393
+        },
+        "bposd(max_iter=1000;ms_scaling_factor=0.9)": {
+          "errors": 1338,
+          "discards": 0,
+          "elapsed": 1798.9693034256968
+        },
+        "bposd(max_iter=6000;ms_scaling_factor=0.9)": {
+          "errors": 1167,
+          "discards": 0,
+          "elapsed": 1817.0444278976338
+        }
+      }
+    },
+    "shots": 70243092,
+    "duration": 54686.639289834995,
+    "min_time": 1.7548863329999997,
+    "finished_tasks": 199
+  }
+}

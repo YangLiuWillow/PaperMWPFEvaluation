@@ -1,0 +1,872 @@
+{
+  "6598a5d6184269f221802150beff46a2754b2565215c2a4d4f9f74ef1da949a3f45813de2031fa884a7ddc4c6b0d21cd6a0b75299417c5b9e086bc81497b0992": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.003)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 171,
+          "discards": 0,
+          "elapsed": 43.35392349523526
+        },
+        "mwpf(c=200)": {
+          "errors": 124,
+          "discards": 0,
+          "elapsed": 1587.841720619723
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 48,
+          "discards": 0,
+          "elapsed": 13.097536203933597
+        }
+      }
+    },
+    "shots": 4096,
+    "duration": 1401.828780878,
+    "min_time": 3.1406178330000003,
+    "finished_tasks": 21
+  },
+  "58c6c4942198c58c8e50d2c1d48eca1c4c6508da37213dbdb2d4ae8ec781387dbcb9c20933925a7494bcafd62d83da041cde673beb0667d868e51f1b5d1153f8": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.003)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 210,
+          "discards": 0,
+          "elapsed": 213.865588273617
+        },
+        "mwpf(c=200)": {
+          "errors": 185,
+          "discards": 0,
+          "elapsed": 4126.279278205609
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 34,
+          "discards": 0,
+          "elapsed": 55.52107971293157
+        }
+      }
+    },
+    "shots": 4470,
+    "duration": 4022.434046459,
+    "min_time": 4.902412375,
+    "finished_tasks": 36
+  },
+  "5170a02bf65733f899f6bf42392c83698c31421a6bd22117849dcb29e181c54f6ba6bde44c3866dee09dbb9d4fc8e461aa30fd72b760d645a4a357064c4cff5f": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=144,k=12,d=12,p=0.003)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 823,
+          "discards": 0,
+          "elapsed": 5587.019915023271
+        },
+        "mwpf(c=200)": {
+          "errors": 823,
+          "discards": 0,
+          "elapsed": 18281.14177519007
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 31,
+          "discards": 0,
+          "elapsed": 469.9989525540827
+        }
+      }
+    },
+    "shots": 13940,
+    "duration": 22329.446040334013,
+    "min_time": 9.056133667000001,
+    "finished_tasks": 157
+  },
+  "cc4c44e56fde90cba41688bdfcd54fc6121ccd69f0a80d49928278b6ce831aa0cfb0ca4b73eb6966e1ad1e947efc49f68890f6a38bbbc941e5185d53aaa52e9c": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.0025)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 84,
+          "discards": 0,
+          "elapsed": 22.09439111239135
+        },
+        "mwpf(c=200)": {
+          "errors": 51,
+          "discards": 0,
+          "elapsed": 872.1441148065247
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 21,
+          "discards": 0,
+          "elapsed": 9.670258665005392
+        }
+      }
+    },
+    "shots": 4096,
+    "duration": 781.0946534130001,
+    "min_time": 3.067909874999998,
+    "finished_tasks": 17
+  },
+  "75f0f81f4aa0f7d3dc31459cfbd93cf32d8c3b36dc906e94dadf9b2a63a1e0507942a9070eb9c7a98cfbdb43793bb80259346c11a99119dbf981e5ec3dda26c3": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.0025)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 291,
+          "discards": 0,
+          "elapsed": 302.49585473819263
+        },
+        "mwpf(c=200)": {
+          "errors": 241,
+          "discards": 0,
+          "elapsed": 8669.017706715353
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 31,
+          "discards": 0,
+          "elapsed": 116.90708895107623
+        }
+      }
+    },
+    "shots": 14652,
+    "duration": 8079.051814211996,
+    "min_time": 4.860835541,
+    "finished_tasks": 61
+  },
+  "b4d2c218ca123cad8e71c336f5edadaf3e0ae5709d7f4e7f1e21be910947fedd9c72cae39940f853b2b62fd9127e38c2f1204eff3f9fd8318342d9fa5dcf47a7": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=144,k=12,d=12,p=0.0025)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 1285,
+          "discards": 0,
+          "elapsed": 8074.300320887228
+        },
+        "mwpf(c=200)": {
+          "errors": 1203,
+          "discards": 0,
+          "elapsed": 66112.01971205937
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 46,
+          "discards": 0,
+          "elapsed": 1443.1218594228199
+        }
+      }
+    },
+    "shots": 59904,
+    "duration": 67660.29322625595,
+    "min_time": 9.254766292,
+    "finished_tasks": 425
+  },
+  "5d58a86060ae84947d128e3e46b4eaf8aa67b6a8845e3fd9b1dec42c4e6db8d57e9d78d470a826ed5ec354637a85dc17f91cdf24730815a4f7c0e88cb0584067": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.002)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 85,
+          "discards": 0,
+          "elapsed": 31.72594628168194
+        },
+        "mwpf(c=200)": {
+          "errors": 56,
+          "discards": 0,
+          "elapsed": 1322.9555417963759
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 25,
+          "discards": 0,
+          "elapsed": 20.555808658885823
+        }
+      }
+    },
+    "shots": 12288,
+    "duration": 1139.7158179600003,
+    "min_time": 3.0925830409999997,
+    "finished_tasks": 17
+  },
+  "7c26ad06972003ab5f9d686b667fdade4b9d3371e66a1d594299d7ad82cd25ac56f83649daf53dcff7032491cbbce91cae11163de01e8fbd54c767a5e100c38f": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.002)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 530,
+          "discards": 0,
+          "elapsed": 560.0983978930146
+        },
+        "mwpf(c=200)": {
+          "errors": 369,
+          "discards": 0,
+          "elapsed": 22572.263533320332
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 43,
+          "discards": 0,
+          "elapsed": 400.8372497331704
+        }
+      }
+    },
+    "shots": 70622,
+    "duration": 20655.786404582006,
+    "min_time": 4.719452416,
+    "finished_tasks": 150
+  },
+  "05c0ac16781fb82e857d330dbd4c3fda53798e9ea4cd462718da3a9ad3ad2de5146dd82a799389eae33099021da9787c88aaa422de1f625d47823bfa84890e6f": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=144,k=12,d=12,p=0.002)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 914,
+          "discards": 0,
+          "elapsed": 5438.742504927977
+        },
+        "mwpf(c=200)": {
+          "errors": 774,
+          "discards": 0,
+          "elapsed": 110572.64230807062
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 16,
+          "discards": 0,
+          "elapsed": 2731.6461156790283
+        }
+      }
+    },
+    "shots": 154258,
+    "duration": 108388.90131842784,
+    "min_time": 8.556882291,
+    "finished_tasks": 697
+  },
+  "695106469f1c1d6792b46f70bb736863fb2ecd4bb19d9abfe6db8dfebfedfed2e6adc44a8f6bfa667bffe95c13aa94f0c4ee07aec810846220b64ed7135a5492": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.0015)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 115,
+          "discards": 0,
+          "elapsed": 29.503499067836966
+        },
+        "mwpf(c=200)": {
+          "errors": 61,
+          "discards": 0,
+          "elapsed": 1267.1354953760717
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 26,
+          "discards": 0,
+          "elapsed": 42.987021445012985
+        }
+      }
+    },
+    "shots": 40960,
+    "duration": 1276.0931591699996,
+    "min_time": 3.050803584,
+    "finished_tasks": 22
+  },
+  "3e4e5da175f3a5df5956815bfd4efcb4082325d1e03965653adccaf06f1dbbf73a593cc334ac5cc1cdf7408ffc2f35f7c54689cca7c3db046c33eb7f956c355a": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.0015)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 508,
+          "discards": 0,
+          "elapsed": 700.3703742753258
+        },
+        "mwpf(c=200)": {
+          "errors": 291,
+          "discards": 0,
+          "elapsed": 31411.755923248686
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 42,
+          "discards": 0,
+          "elapsed": 1055.2769843290966
+        }
+      }
+    },
+    "shots": 283992,
+    "duration": 28653.236397096018,
+    "min_time": 4.810002915999998,
+    "finished_tasks": 209
+  },
+  "369fbfc4ff7409e0f61e27831e50a009283eeb0142bc4909d86abc51097242baf95f687e236e274a918a8e744145a6c0e11be603f6c6c6b413688cd7cdbb2e7c": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=144,k=12,d=12,p=0.0015)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 311,
+          "discards": 0,
+          "elapsed": 2028.868673402126
+        },
+        "mwpf(c=200)": {
+          "errors": 219,
+          "discards": 0,
+          "elapsed": 88543.05807496473
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 7,
+          "discards": 0,
+          "elapsed": 3408.644035938209
+        }
+      }
+    },
+    "shots": 290913,
+    "duration": 85554.5944441309,
+    "min_time": 8.708252583,
+    "finished_tasks": 528
+  },
+  "9ab3546bf68a0d74538adb5078c412c5f9fd1cb0f7b027f70714c8e01849560511ca540337343b493845bb42c0db46b12709db14ae24760dcf1aac910fcf4e10": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.0012)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 178,
+          "discards": 0,
+          "elapsed": 72.55390820363836
+        },
+        "mwpf(c=200)": {
+          "errors": 81,
+          "discards": 0,
+          "elapsed": 2011.9572979210636
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 37,
+          "discards": 0,
+          "elapsed": 136.42060095956094
+        }
+      }
+    },
+    "shots": 157288,
+    "duration": 2002.590281625,
+    "min_time": 3.045783125,
+    "finished_tasks": 28
+  },
+  "72d73fad88161f48fbdcdd8ecab46e2bd9f4b48d976c8dab377c9bad17101c078d633a4aab370c8c52ac56b92ddb0a7855696cbb55450e3cd8ffde669021ab04": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.0012)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 298,
+          "discards": 0,
+          "elapsed": 699.3402553071119
+        },
+        "mwpf(c=200)": {
+          "errors": 149,
+          "discards": 0,
+          "elapsed": 24105.497379908033
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 38,
+          "discards": 0,
+          "elapsed": 1474.889672005888
+        }
+      }
+    },
+    "shots": 524288,
+    "duration": 22408.23964454899,
+    "min_time": 4.752827667,
+    "finished_tasks": 140
+  },
+  "753c9b2dc55e0d0ea070b52ee469e382ba2485447716dbea27323436e3573599e28bf374b5d0e2fd1986f7c2860d8410fd93e9f4f540ff830f6c14d178b10535": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=144,k=12,d=12,p=0.0012)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 269,
+          "discards": 0,
+          "elapsed": 2123.7206749126212
+        },
+        "mwpf(c=200)": {
+          "errors": 165,
+          "discards": 0,
+          "elapsed": 87833.79997205792
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 5,
+          "discards": 0,
+          "elapsed": 6292.44262147715
+        }
+      }
+    },
+    "shots": 724798,
+    "duration": 87187.84823270908,
+    "min_time": 8.723045417,
+    "finished_tasks": 515
+  },
+  "dedc809c4697ace21e0c2dd985cdab7d89f57e174cba559194231eaddc5de5a8fb415fa5bf4480a1631699f227df8dd9e86eaa2bcb14b1bf1eacbaec7559144c": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.001)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 101,
+          "discards": 0,
+          "elapsed": 69.7510883607387
+        },
+        "mwpf(c=200)": {
+          "errors": 41,
+          "discards": 0,
+          "elapsed": 1138.5116382353829
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 25,
+          "discards": 0,
+          "elapsed": 137.8477834464812
+        }
+      }
+    },
+    "shots": 203892,
+    "duration": 1261.6930414180001,
+    "min_time": 3.0257820829999997,
+    "finished_tasks": 24
+  },
+  "7d491144820d11e0facd8f2b1d57659753c5c507b2a907f1a322443cc250c6450f19486aadd7dd7d6babd6c2c25917ab82d20b3851464b5b5eee0858ced441c8": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.001)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 271,
+          "discards": 0,
+          "elapsed": 934.5006711223386
+        },
+        "mwpf(c=200)": {
+          "errors": 120,
+          "discards": 0,
+          "elapsed": 22595.62821710905
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 36,
+          "discards": 0,
+          "elapsed": 2353.74735084335
+        }
+      }
+    },
+    "shots": 1048576,
+    "duration": 22220.323092862025,
+    "min_time": 4.7695222500000005,
+    "finished_tasks": 156
+  },
+  "ebc7e2aa226ac6e8de7b15380b89f80c450e6f31d428510e3fe7515a238d7f42051f1dc8acddfcb3e1a8d78c87a4ae94be3315f604056ddfd7dd788a339e7ff8": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=144,k=12,d=12,p=0.001)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 13.052389178612465
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 228.8169726198317
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 14.253254058171986
+        }
+      }
+    },
+    "shots": 2048,
+    "duration": 303.34535870800016,
+    "min_time": 8.745680958000001,
+    "finished_tasks": 12
+  },
+  "16547007ab82804407f07b3400c340eb7ae1949b49a1c53933f6189e91cfc1446ea690bc423d722ef6d19ea9e047818d04f9077b50454fde1376810892b04b1c": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.0008)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 206,
+          "discards": 0,
+          "elapsed": 247.2146558466109
+        },
+        "mwpf(c=200)": {
+          "errors": 81,
+          "discards": 0,
+          "elapsed": 2461.8024713246123
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 52,
+          "discards": 0,
+          "elapsed": 476.06784548456966
+        }
+      }
+    },
+    "shots": 873816,
+    "duration": 2764.094566248998,
+    "min_time": 3.0472555839999993,
+    "finished_tasks": 35
+  },
+  "aac165fbbddcc26a8cd3be8b5de5f5374535b0783b839c8d854f9681d387432c5e9766869c85d876bcd9e6d186a0ca1b9f3f2f04b0ea4a1fc3184c3b1954d672": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.0008)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 311,
+          "discards": 0,
+          "elapsed": 2002.3807189739568
+        },
+        "mwpf(c=200)": {
+          "errors": 105,
+          "discards": 0,
+          "elapsed": 26943.105909283022
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 30,
+          "discards": 0,
+          "elapsed": 5413.379396752406
+        }
+      }
+    },
+    "shots": 3145728,
+    "duration": 29130.53520208302,
+    "min_time": 4.771815334000003,
+    "finished_tasks": 186
+  },
+  "c013b21ed5818c3bd51ce0f2347c43ddb46e9d31af6b81755a80831b42e73a071c3bb8b5f65bee11a5b7fceca0b3fdbfabeb92663462b4ef3b5575b64a67537e": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.0006)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 132,
+          "discards": 0,
+          "elapsed": 479.48048939322405
+        },
+        "mwpf(c=200)": {
+          "errors": 53,
+          "discards": 0,
+          "elapsed": 2182.601264441267
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 33,
+          "discards": 0,
+          "elapsed": 918.3950360718292
+        }
+      }
+    },
+    "shots": 2097152,
+    "duration": 2974.570435629988,
+    "min_time": 3.0904085830000003,
+    "finished_tasks": 47
+  },
+  "03407491c4e4c0cc983b96651669c41d797bf1267ccd206d6d6ca58aeab1a40ec936d9619cf7776fcfe619dd4c435f7098a708df5e410caad8e7c0fc76ff9253": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.0006)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 8.897258596577833
+        },
+        "mwpf(c=200)": {
+          "errors": 1,
+          "discards": 0,
+          "elapsed": 21.466117784878943
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 12.09838764668492
+        }
+      }
+    },
+    "shots": 8192,
+    "duration": 98.01663262400001,
+    "min_time": 4.809218208000001,
+    "finished_tasks": 14
+  },
+  "37c708c2e7fd7f4e96d935d198138b1e863c44be3cf5ed13744f7dc5105d87ae5d4fe7ee491364f5e4511beffc32071282a41ef4b4c4454b406cebd4f3cf5d8a": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.0005)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 156,
+          "discards": 0,
+          "elapsed": 732.777288391259
+        },
+        "mwpf(c=200)": {
+          "errors": 62,
+          "discards": 0,
+          "elapsed": 2253.419024785399
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 55,
+          "discards": 0,
+          "elapsed": 1332.225651389928
+        }
+      }
+    },
+    "shots": 3670016,
+    "duration": 3531.549349540004,
+    "min_time": 3.056671833000001,
+    "finished_tasks": 45
+  },
+  "4a275b51b99e186241fddd6f4e2f8f68867b26de6625b4b45a38c5130bb0408736f7bbfeafcf1e9d544d6b848c9a14d2e044f083584b073cc5e372a0da6df624": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.005)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 66,
+          "discards": 0,
+          "elapsed": 17.614962774216572
+        },
+        "mwpf(c=200)": {
+          "errors": 59,
+          "discards": 0,
+          "elapsed": 282.09278295312555
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 26,
+          "discards": 0,
+          "elapsed": 3.663566001885431
+        }
+      }
+    },
+    "shots": 256,
+    "duration": 295.75940908299714,
+    "min_time": 2.533745125,
+    "finished_tasks": 9
+  },
+  "7fb5dcae560c7e81094230f1544e62b37d7b6f8f2fa0e8944513f5aa71fb4c551ac8efd9894298b6bb7aa5cc417c9a0eef4f4cd55a56ab5a8bb95b9f083d7e91": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.005)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 96,
+          "discards": 0,
+          "elapsed": 145.23560144005393
+        },
+        "mwpf(c=200)": {
+          "errors": 94,
+          "discards": 0,
+          "elapsed": 314.34753289163007
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 31,
+          "discards": 0,
+          "elapsed": 14.047190598596426
+        }
+      }
+    },
+    "shots": 256,
+    "duration": 470.34381233300405,
+    "min_time": 4.622790375,
+    "finished_tasks": 10
+  },
+  "09d1b50de246c682fc1d73fd11e5563f11cfaebeb3a36d94b990181c0721f3702b6994a554d9224ebc4bd19bc0995fcca44c107f2f888ec7ebfe5f86383087f9": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=144,k=12,d=12,p=0.005)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 134,
+          "discards": 0,
+          "elapsed": 1465.6576378589627
+        },
+        "mwpf(c=200)": {
+          "errors": 137,
+          "discards": 0,
+          "elapsed": 1512.1114793304507
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 21,
+          "discards": 0,
+          "elapsed": 42.79837364496027
+        }
+      }
+    },
+    "shots": 256,
+    "duration": 2821.7982366240008,
+    "min_time": 10.931777291,
+    "finished_tasks": 15
+  },
+  "bec6f9d98245454b363b7116c5a1e463506d95375fc110deb88667e405dd01e439bb7fce9f85695bbdcf190593a249c873e69f85dfd9d26f7163ef1c1189ace9": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=72,k=12,d=6,p=0.004)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 92,
+          "discards": 0,
+          "elapsed": 14.957220298040195
+        },
+        "mwpf(c=200)": {
+          "errors": 76,
+          "discards": 0,
+          "elapsed": 462.84165219853224
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 23,
+          "discards": 0,
+          "elapsed": 3.9743877397364895
+        }
+      }
+    },
+    "shots": 683,
+    "duration": 473.5754972490004,
+    "min_time": 1.709763708,
+    "finished_tasks": 12
+  },
+  "e5a3563be0f3630d982a098ead58161937b05d12e918530fe834bfe65f906d5d1c3c76fb24fdee6b7b4bd7d64e575c6d567b563830b6ad42627058b5a0c89076": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=90,k=8,d=10,p=0.004)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 168,
+          "discards": 0,
+          "elapsed": 162.3665953577448
+        },
+        "mwpf(c=200)": {
+          "errors": 158,
+          "discards": 0,
+          "elapsed": 939.9283873567772
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 27,
+          "discards": 0,
+          "elapsed": 22.20046484666302
+        }
+      }
+    },
+    "shots": 1024,
+    "duration": 1144.6124919610024,
+    "min_time": 3.918893333,
+    "finished_tasks": 17
+  },
+  "e35901061991daa372fc8f9494e5de5b9c3241d73807bcad1c5c1c6d95dec7646149b344b11691edb1b2763c3be6ab5d1043818ebb8d1b17047cf69d096e60ae": {
+    "args": [],
+    "kwargs": {
+      "code": "cbb(n=144,k=12,d=12,p=0.004)",
+      "noise": "none"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 240,
+          "discards": 0,
+          "elapsed": 1466.7488377962302
+        },
+        "mwpf(c=200)": {
+          "errors": 231,
+          "discards": 0,
+          "elapsed": 1812.34490471408
+        },
+        "bposd(max_iter=1000,ms_scaling_factor=0.9)": {
+          "errors": 19,
+          "discards": 0,
+          "elapsed": 54.38131586717193
+        }
+      }
+    },
+    "shots": 1024,
+    "duration": 3396.5421589590023,
+    "min_time": 5.7247220830000005,
+    "finished_tasks": 29
+  }
+}
