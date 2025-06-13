@@ -40,7 +40,7 @@ def main(*, target_precision: float = 0.04):
         decoder=decoder_vec,
         target_precision=target_precision,
         local_maximum_jobs=local_maximum_jobs - 1,
-        max_shots=10_000_000,
+        max_shots=100_000_000,
     )
 
 

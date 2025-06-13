@@ -6,28 +6,31 @@ assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
 
-noise: str = "depolarize(p=0.01)"
-code: str = "css_rsc(d=7)"
+noise_vec: list[str] = ["depolarize(p=0.01)"]
+d_vec = list(range(3, 31 + 1, 2))
+code_vec: list[str] = [f"css_rsc(d={d})" for d in d_vec]
 
 decoder_vec = []
 
-# add UF and MWPM decoder with fusion blossom
-t_vec = list(range(10))
-for t in t_vec:
-    decoder_vec.append(f"fb(max_tree_size={t})")
-decoder_vec.append("fb")
-decoder_vec.append("none")
-
 # add mwpf decoders
-c_vec = list(range(10)) + list(range(10, 50 + 1, 5)) + [100, 150, 200, 300, 500, 1000]
+c_vec = [0, 50, 200]
 for c in c_vec:
     decoder_vec.append(f"mwpf(c={c})")
 
+# add UF and MWPM decoder with fusion blossom
+decoder_vec.append("fb(max_tree_size=0)")
+decoder_vec.append("fb")
+
 
 @arguably.command
-def main(*, target_precision: float = 0.04):
-    from qec_lego_bench.notebooks.compare_decoder import (
-        notebook_compare_decoder,
+def main(
+    *,
+    min_shots: int = 10_000_000,
+    max_shots: int = 1000_000_000,
+    min_time: float = 0,
+):
+    from qec_lego_bench.notebooks.speed_scaling import (
+        notebook_speed_scaling,
     )
 
     assert (
@@ -36,13 +39,16 @@ def main(*, target_precision: float = 0.04):
 
     num_p_cores: int = 8  # M4 Pro has 8 performance cores
 
-    notebook_compare_decoder(
+    notebook_speed_scaling(
         notebook_filepath=notebook_filepath,
-        code=code,
-        noise=noise,
+        code=code_vec,
+        noise=noise_vec,
         decoder=decoder_vec,
-        target_precision=target_precision,
+        min_shots=min_shots,
+        max_shots=max_shots,
+        min_time=min_time,
         local_maximum_jobs=num_p_cores - 2,
+        repeats=5,
     )
 
 
