@@ -20,8 +20,9 @@ def generate_d_vec(ratio: float = 1.244, max_d: int = 99) -> list[int]:
     return d_vec
 d_vec = generate_d_vec()
 """
-d_vec = list(reversed([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99]))
-code_vec: list[str] = [f"css_rsc(d={d})" for d in d_vec]
+# d_vec = list(reversed([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99]))
+d_vec = list([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99])
+code_vec: list[str] = [f"css_color(d={d},color=1)" for d in d_vec]
 
 decoder_vec = []
 
@@ -30,15 +31,13 @@ c_vec = [0, 50, 200]
 for c in c_vec:
     decoder_vec.append(f"mwpf(c={c})")
 
-# add UF and MWPM decoder with fusion blossom
-decoder_vec.append("fb(max_tree_size=0)")
-decoder_vec.append("fb")
+decoder_vec.append("chromobius")
 
 
 @arguably.command
 def main(
     *,
-    min_shots: int = 1_000_000,
+    min_shots: int = 300_000,
     max_shots: int = 1000_000_000,
     min_time: float = 0,
 ):
