@@ -1023,31 +1023,31 @@
     "result": {
       "results": {
         "fb(max_tree_size=0)": {
-          "errors": 2290,
+          "errors": 4025,
           "discards": 0,
-          "elapsed": 101383.19467346052
+          "elapsed": 177948.56225346806
         },
         "fb": {
-          "errors": 1726,
+          "errors": 3015,
           "discards": 0,
-          "elapsed": 102431.40488717455
+          "elapsed": 177768.83178559868
         },
         "mwpf(c=0)": {
-          "errors": 1279,
+          "errors": 2215,
           "discards": 0,
-          "elapsed": 649755.4003313638
+          "elapsed": 1127667.0311099633
         },
         "mwpf(c=200)": {
-          "errors": 1060,
+          "errors": 1849,
           "discards": 0,
-          "elapsed": 38479443.9059711
+          "elapsed": 66941111.44756259
         }
       }
     },
-    "shots": 71983359,
-    "duration": 43538756.46459864,
+    "shots": 126024500,
+    "duration": 78771375.60548276,
     "min_time": 5.552337417,
-    "finished_tasks": 234925
+    "finished_tasks": 420296
   },
   "51f5498d48870edee602384212b93a4ce2bdb9339a587796b3016b33532a8038f0ed60e03cd23c77fa7b4c0b230151d38f794853b1c78d8c2ec697d6635bd298": {
     "args": [],

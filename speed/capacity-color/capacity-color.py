@@ -20,8 +20,8 @@ def generate_d_vec(ratio: float = 1.244, max_d: int = 99) -> list[int]:
     return d_vec
 d_vec = generate_d_vec()
 """
-# d_vec = list(reversed([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99]))
-d_vec = list([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99])
+d_vec = list(reversed([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99]))
+# d_vec = list([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99])
 code_vec: list[str] = [f"css_color(d={d},color=1)" for d in d_vec]
 
 decoder_vec = []
