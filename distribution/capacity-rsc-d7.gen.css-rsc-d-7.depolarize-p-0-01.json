@@ -1,0 +1,38 @@
+{
+  "cd3a7e09855ded7fe243a515cb846107f391edf338769a64317c47fab2f5fccf84d8171de01a6eb7d34afeb0fa40f07e0557fea093e5dff8b33cd655b8126182": {
+    "args": [],
+    "kwargs": {
+      "code": "css_rsc(d=7)",
+      "noise": "depolarize(p=0.01)",
+      "decoder": "fb",
+      "idx": "0"
+    },
+    "result": {
+      "errors": 0,
+      "discards": 0,
+      "elapsed": 2.176900863647461
+    },
+    "shots": 10000000,
+    "duration": 2.141242209,
+    "min_time": 2.141242209,
+    "finished_tasks": 1
+  },
+  "914e653a5cedbe07f411ac4a70642da783e3069255e581de2f1c94c22ffbb3c1531d340e22f74ceceea2d6866a329c7e01f8ef0dfd6d358cb91c872fe74d6be2": {
+    "args": [],
+    "kwargs": {
+      "code": "css_rsc(d=7)",
+      "noise": "depolarize(p=0.01)",
+      "decoder": "none",
+      "idx": "0"
+    },
+    "result": {
+      "errors": 0,
+      "discards": 0,
+      "elapsed": 2.1936771869659424
+    },
+    "shots": 10000000,
+    "duration": 2.13571425,
+    "min_time": 2.13571425,
+    "finished_tasks": 1
+  }
+}

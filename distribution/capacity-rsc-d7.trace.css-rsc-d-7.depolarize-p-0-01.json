@@ -1,0 +1,61 @@
+{
+  "_version": {
+    "stim": "1.15.dev0",
+    "qec_lego_bench": "0.0.4.post1.dev7+gc78c55b.d20250222",
+    "sinter": "1.15.dev0"
+  },
+  "a73fa06e4db9a77d11efaa2f59a89f376c44885220c47f0ffbca0f338107f9c7f5f74825fa06a184a5a4816296664f92c5300e6bff1f06ecd5deac8c800109ff": {
+    "args": [],
+    "kwargs": {
+      "code": "css_rsc(d=7)",
+      "noise": "depolarize(p=0.01)",
+      "decoder": "mwpf(c=0)",
+      "idx": "0"
+    },
+    "result": {
+      "errors": 0,
+      "discards": 0,
+      "elapsed": 250.7890980243683
+    },
+    "shots": 10000000,
+    "duration": 245.816853083,
+    "min_time": 245.816853083,
+    "finished_tasks": 1
+  },
+  "a61b6d07e10cfc37e90bb7f2941c7eafbbe0fa72d3c159a05416665c624aca2cc4534110e4d484cf0a949ac03c005dfd691069aa46943f64bdcf0f1b1e18374a": {
+    "args": [],
+    "kwargs": {
+      "code": "css_rsc(d=7)",
+      "noise": "depolarize(p=0.01)",
+      "decoder": "mwpf(c=15)",
+      "idx": "0"
+    },
+    "result": {
+      "errors": 0,
+      "discards": 0,
+      "elapsed": 282.1828091144562
+    },
+    "shots": 10000000,
+    "duration": 278.475668084,
+    "min_time": 278.475668084,
+    "finished_tasks": 1
+  },
+  "3ebd6ab93ee97b25bfe2dd098cc41d6353807ab946af323c0be3053e7a2a93c31bda45f024a6f61777f37b86adbd572e7b61512fed424f3e65c1418be7d80a96": {
+    "args": [],
+    "kwargs": {
+      "code": "css_rsc(d=7)",
+      "noise": "depolarize(p=0.01)",
+      "decoder": "mwpf(c=200)",
+      "idx": "0"
+    },
+    "result": {
+      "errors": 0,
+      "discards": 0,
+      "elapsed": 308.16334891319275
+    },
+    "shots": 10000000,
+    "duration": 303.718753708,
+    "min_time": 303.718753708,
+    "finished_tasks": 1
+  }
+}
