@@ -16,19 +16,32 @@ decoders = [
 ]
 
 
+"""
+When running the evaluation, I used the following command to minimize impact of multiple cores
+```sh
+python3 capacity-rsc-d7.py
+sudo renice -n -20 -p 47074 
+
+# for debugging or testing plotting, use 1% samples
+python3 capacity-rsc-d7.py --shots 10000000
+```
+"""
+
+
 @arguably.command
 def main(
     *,
     unit_shots: int = 10_000_000,
-    shots: int = 10_000_000,
+    shots: int = 1_000_000_000,
+    local_maximum_jobs: int = 1,
 ):
     from qec_lego_bench.notebooks.trace_distribution import (
         notebook_trace_distribution,
     )
 
-    # assert (
-    #     is_m4pro_cpu()
-    # ), "evaluation should run on Apple M4 pro CPU. if you're sure running this on another machine, please comment out this assertion."
+    assert (
+        is_m4pro_cpu()
+    ), "evaluation should run on Apple M4 pro CPU. if you're sure running this on another machine, please comment out this assertion."
 
     num_p_cores: int = 8  # M4 Pro has 8 performance cores
 
@@ -39,7 +52,9 @@ def main(
         decoder=decoders,
         unit_shots=unit_shots,
         shots=shots,
-        local_maximum_jobs=num_p_cores - 2,
+        local_maximum_jobs=(
+            num_p_cores - 2 if local_maximum_jobs is None else local_maximum_jobs
+        ),
     )
 
 

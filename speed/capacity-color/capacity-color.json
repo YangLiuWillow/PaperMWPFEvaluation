@@ -343,11 +343,34 @@
       "noise": "depolarize(p=0.01)",
       "repeat": "0"
     },
-    "result": null,
-    "shots": 0,
-    "duration": 0,
-    "min_time": null,
-    "finished_tasks": 0
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 227.09770906370707
+        },
+        "mwpf(c=50)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 475.39251243379255
+        },
+        "mwpf(c=200)": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 838.544727994826
+        },
+        "chromobius": {
+          "errors": 0,
+          "discards": 0,
+          "elapsed": 22.940016608445518
+        }
+      }
+    },
+    "shots": 300000,
+    "duration": 1713.7201721249985,
+    "min_time": 1713.7201721249985,
+    "finished_tasks": 1
   },
   "55e7674516ec4128125191ce06c863da8f6040bdb6da78b9c2de882b8a1dfb7ce12a8dd810b1ef41ca92a278b035e921e2f0bfb226324a157756f60ef6416175": {
     "args": [],
