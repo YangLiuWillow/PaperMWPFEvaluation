@@ -1,0 +1,117 @@
+{
+  "e13e2ece45c84c21346896d49df43157753577a546e479b84c622c86d79445b1914e99400a2539c54904d650ad40e27aadfdc3e1c3f26ed75f5339a942ef3fbe": {
+    "args": [],
+    "kwargs": {
+      "code": "bb(n=90,k=8,d=10)",
+      "noise": "flip(p=0.01)"
+    },
+    "result": {
+      "results": {
+        "mwpf(c=0)": {
+          "errors": 35540,
+          "discards": 0,
+          "elapsed": 5889.200518401287
+        },
+        "mwpf(c=10)": {
+          "errors": 33647,
+          "discards": 0,
+          "elapsed": 6151.144561630468
+        },
+        "mwpf(c=15)": {
+          "errors": 21447,
+          "discards": 0,
+          "elapsed": 6333.494927148362
+        },
+        "mwpf(c=20)": {
+          "errors": 9927,
+          "discards": 0,
+          "elapsed": 6404.915159309616
+        },
+        "mwpf(c=30)": {
+          "errors": 6897,
+          "discards": 0,
+          "elapsed": 6458.256634265391
+        },
+        "mwpf(c=50)": {
+          "errors": 6260,
+          "discards": 0,
+          "elapsed": 6552.907760422789
+        },
+        "mwpf(c=100)": {
+          "errors": 5797,
+          "discards": 0,
+          "elapsed": 6870.83190115355
+        },
+        "mwpf(c=150)": {
+          "errors": 5401,
+          "discards": 0,
+          "elapsed": 7165.820877942185
+        },
+        "mwpf(c=200)": {
+          "errors": 5151,
+          "discards": 0,
+          "elapsed": 7408.546150067586
+        },
+        "mwpf(c=300)": {
+          "errors": 4789,
+          "discards": 0,
+          "elapsed": 7777.320183275179
+        },
+        "mwpf(c=500)": {
+          "errors": 4575,
+          "discards": 0,
+          "elapsed": 8148.987397606625
+        },
+        "mwpf(c=1000)": {
+          "errors": 4497,
+          "discards": 0,
+          "elapsed": 8499.71299337775
+        },
+        "bposd(max_iter=1;ms_scaling_factor=0.9)": {
+          "errors": 185916,
+          "discards": 0,
+          "elapsed": 6661.852232000909
+        },
+        "bposd(max_iter=50;ms_scaling_factor=0.9)": {
+          "errors": 58537,
+          "discards": 0,
+          "elapsed": 6484.986446705958
+        },
+        "bposd(max_iter=100;ms_scaling_factor=0.9)": {
+          "errors": 15815,
+          "discards": 0,
+          "elapsed": 6486.845083757404
+        },
+        "bposd(max_iter=1000;ms_scaling_factor=0.9)": {
+          "errors": 8213,
+          "discards": 0,
+          "elapsed": 6495.73401591669
+        },
+        "bposd(max_iter=10000;ms_scaling_factor=0.9)": {
+          "errors": 6723,
+          "discards": 0,
+          "elapsed": 6543.612743769084
+        },
+        "bposd(max_iter=100000;ms_scaling_factor=0.9)": {
+          "errors": 6114,
+          "discards": 0,
+          "elapsed": 6775.10178748143
+        },
+        "bposd(max_iter=1000000;ms_scaling_factor=0.9)": {
+          "errors": 5858,
+          "discards": 0,
+          "elapsed": 7746.685908691958
+        },
+        "bposd(max_iter=50000000;ms_scaling_factor=0.9)": {
+          "errors": 5726,
+          "discards": 0,
+          "elapsed": 17735.027332771424
+        }
+      }
+    },
+    "shots": 391580506,
+    "duration": 154161.81798648994,
+    "min_time": 4.827214375,
+    "finished_tasks": 790
+  }
+}
