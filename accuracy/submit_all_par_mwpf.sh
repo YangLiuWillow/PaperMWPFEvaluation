@@ -13,13 +13,14 @@ submit() {
     sbatch <<EOF
 #!/bin/bash
 #SBATCH --job-name=${name}
-#SBATCH --time=1-00:00:00
-#SBATCH --mem=10G
-#SBATCH --cpus-per-task=2
+#SBATCH --time=10:00:00
+#SBATCH --mem=1G
+#SBATCH --cpus-per-task=1
 #SBATCH --partition=day
 #SBATCH --output=${dir}/slurm_job/${name}-%j.log
 #SBATCH --error=${dir}/slurm_job/${name}-%j.err
 
+module purge
 module load miniconda
 conda activate par-mwpf
 
