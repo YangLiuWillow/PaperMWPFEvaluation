@@ -46,7 +46,7 @@ def main(*, target_precision: float = 0.04, slurm_maximum_jobs: int = 100):
         noise=noise_vec,
         decoder=decoder_vec,
         target_precision=target_precision,
-        local_maximum_jobs=local_maximum_jobs - 1,
+        local_maximum_jobs=2,
         max_shots=10_000_000,
         slurm_maximum_jobs=slurm_maximum_jobs,
         high_pL_threshold=0.1,
