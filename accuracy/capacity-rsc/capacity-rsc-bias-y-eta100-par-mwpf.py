@@ -48,6 +48,7 @@ def main(*, target_precision: float = 0.04):
         high_pL_threshold=1.0,  # special for biased-Y where the threshold is close to 50%
         slurm_cores_per_node=32,
         slurm_processes_per_node=1,
+        slurm_mem_per_job=0.5,
         slurm_extra=dict(walltime="1-00:00:00", queue="day"),
     )
 

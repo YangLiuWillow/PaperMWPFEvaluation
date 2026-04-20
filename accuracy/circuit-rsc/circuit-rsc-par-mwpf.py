@@ -52,6 +52,7 @@ def main(*, target_precision: float = 0.04, slurm_maximum_jobs: int = 100):
         high_pL_threshold=0.1,
         slurm_cores_per_node=32,
         slurm_processes_per_node=1,
+        slurm_mem_per_job=0.5,
         slurm_extra=dict(walltime="1-00:00:00", queue="day"),
     )
 

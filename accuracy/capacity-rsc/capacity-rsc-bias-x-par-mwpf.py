@@ -51,6 +51,7 @@ def main(*, target_precision: float = 0.04):
         max_shots=10_000_000,
         slurm_cores_per_node=32,
         slurm_processes_per_node=1,
+        slurm_mem_per_job=0.5,
         slurm_extra=dict(walltime="1-00:00:00", queue="day"),
     )
 
