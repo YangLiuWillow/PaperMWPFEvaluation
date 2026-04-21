@@ -1,0 +1,8 @@
+name: par-mwpf
+channels:
+  - defaults
+dependencies:
+  - cmake
+  - pytest
+  - maturin
+prefix: /Users/yangliu/anaconda3/envs/par-mwpf
