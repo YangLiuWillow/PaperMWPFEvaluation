@@ -8,27 +8,30 @@ notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
 local_cpu_count: int = multiprocessing.cpu_count()
 
-noise_vec: list[str] = ["depolarize(p=0.01)"]
+noise_vec: list[str] = ["depolarize(p=0.001)"]
 # start with large d to minimize cold start scheduling problem for very small d
-d_vec = list(reversed([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99]))
+d_vec = list(reversed([3]))
+# d_vec = list(reversed([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99]))
 code_vec: list[str] = [f"css_rsc(d={d})" for d in d_vec]
 
 decoder_vec = []
 
 # add mwpf decoders for comparison
-c_vec = [0, 50, 200]
+# c_vec = [0, 50, 200]
+c_vec = [0]
 for c in c_vec:
     decoder_vec.append(f"mwpf(c={c})")
 
 # add UF and MWPM decoder with fusion blossom
-decoder_vec.append("fb(max_tree_size=0)")
-decoder_vec.append("fb")
+# decoder_vec.append("fb(max_tree_size=0)")
+# decoder_vec.append("fb")
 
 # add par-mwpf decoders with different partition counts
 decoder_vec.append("par_mwpf(c=0)")
-decoder_vec.append("par_mwpf(c=50)")
-decoder_vec.append("par_mwpf(c=50,p=4)")
-decoder_vec.append("par_mwpf(c=200)")
+decoder_vec.append("par_mwpf(c=0,p=2)")
+# decoder_vec.append("par_mwpf(c=50)")
+# decoder_vec.append("par_mwpf(c=50,p=4)")
+# decoder_vec.append("par_mwpf(c=200)")
 
 
 @arguably.command
