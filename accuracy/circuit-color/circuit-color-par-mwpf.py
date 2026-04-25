@@ -5,38 +5,33 @@ import multiprocessing
 local_maximum_jobs: int = multiprocessing.cpu_count()
 
 this_dir = os.path.dirname(os.path.abspath(__file__))
+circuits_dir = os.path.join(this_dir, "circuits")
+
 assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
 decoder_vec = ["mwpf(c=0)", "par_mwpf(c=0,thread_pool_size=16)", "par_mwpf(c=50,thread_pool_size=16)", "par_mwpf(c=50,p=4,thread_pool_size=16)"]
-
 p_d_vec = [
-    ("0.02", [3]),
-    # ("0.05", [3, 5, 7]),
-    # ("0.02", [3, 5, 7, 9]),
-    # ("0.01", [3, 5, 7, 9]),
-    # ("0.009", [3, 5, 7, 9, 11]),
-    # ("0.008", [3, 5, 7, 9, 11, 13]),
-    # ("0.007", [3, 5, 7, 9, 11, 13]),
-    # ("0.006", [3, 5, 7, 9, 11, 13]),
-    # ("0.005", [3, 5, 7, 9, 11, 13]),
-    # ("0.002", [3, 5, 7, 9, 11]),
-    # ("0.001", [3, 5, 7]),
-    # ("0.0005", [3, 5]),
-    # ("0.0002", [3]),
-    # ("0.0001", [3]),
+    ("0.0003", [3]),
 ]
+
+
+def stim_filepath(d: int, p: float):
+    return os.path.join(circuits_dir, f"{d}-{p}.stim")
+
 
 code_vec: list[str] = []
 noise_vec: list[str] = []
 for p, d_vec in p_d_vec:
     for d in d_vec:
-        code_vec.append(f"rsc(d={d},p={p})")
-        noise_vec.append(f"none")
+        filepath = stim_filepath(d, p)
+        assert os.path.exists(filepath), f"stim file {filepath} does not exist"
+        code_vec.append(f"file(filepath={filepath})")
+        noise_vec.append(f"none(p={p})")
 
 
 @arguably.command
-def main(*, target_precision: float = 1.0, slurm_maximum_jobs: int = 100):
+def main(*, target_precision: float = 1.0):
     from qec_lego_bench.notebooks.pL_p_compare_decoders import (
         notebook_pL_p_compare_decoders,
     )

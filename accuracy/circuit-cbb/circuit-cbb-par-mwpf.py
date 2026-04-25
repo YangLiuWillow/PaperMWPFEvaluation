@@ -8,35 +8,29 @@ this_dir = os.path.dirname(os.path.abspath(__file__))
 assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
-decoder_vec = ["mwpf(c=0)", "par_mwpf(c=0,thread_pool_size=16)", "par_mwpf(c=50,thread_pool_size=16)", "par_mwpf(c=50,p=4,thread_pool_size=16)"]
+code_dict: dict[int, str] = {
+    72: "cbb(n=72,k=12,d=6)",
+    90: "cbb(n=90,k=8,d=10)",
+    108: "cbb(n=108,k=8,d=10)",
+    144: "cbb(n=144,k=12,d=12)",
+    288: "cbb(n=288,k=12,d=18)",
+}
 
-p_d_vec = [
-    ("0.02", [3]),
-    # ("0.05", [3, 5, 7]),
-    # ("0.02", [3, 5, 7, 9]),
-    # ("0.01", [3, 5, 7, 9]),
-    # ("0.009", [3, 5, 7, 9, 11]),
-    # ("0.008", [3, 5, 7, 9, 11, 13]),
-    # ("0.007", [3, 5, 7, 9, 11, 13]),
-    # ("0.006", [3, 5, 7, 9, 11, 13]),
-    # ("0.005", [3, 5, 7, 9, 11, 13]),
-    # ("0.002", [3, 5, 7, 9, 11]),
-    # ("0.001", [3, 5, 7]),
-    # ("0.0005", [3, 5]),
-    # ("0.0002", [3]),
-    # ("0.0001", [3]),
+decoder_vec = ["mwpf(c=0)", "par_mwpf(c=0,thread_pool_size=16)", "par_mwpf(c=50,thread_pool_size=16)", "par_mwpf(c=50,p=4,thread_pool_size=16)"]
+p_n_vec = [
+    ("0.003", [72]),
 ]
 
 code_vec: list[str] = []
 noise_vec: list[str] = []
-for p, d_vec in p_d_vec:
-    for d in d_vec:
-        code_vec.append(f"rsc(d={d},p={p})")
+for p, n_vec in p_n_vec:
+    for n in n_vec:
+        code_vec.append(f"{code_dict[n][:-1]},p={p})")
         noise_vec.append(f"none")
 
 
 @arguably.command
-def main(*, target_precision: float = 1.0, slurm_maximum_jobs: int = 100):
+def main(*, target_precision: float = 1.0):
     from qec_lego_bench.notebooks.pL_p_compare_decoders import (
         notebook_pL_p_compare_decoders,
     )

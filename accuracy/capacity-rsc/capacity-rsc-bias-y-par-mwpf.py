@@ -8,7 +8,7 @@ this_dir = os.path.dirname(os.path.abspath(__file__))
 assert os.path.abspath(__file__)[-3:] == ".py"
 notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
-decoder_vec = ["par_mwpf(c=0)", "par_mwpf(c=1000)", "par_mwpf(c=1000,p=4)"]
+decoder_vec = ["mwpf(c=0)", "par_mwpf(c=0,thread_pool_size=16)", "par_mwpf(c=1000,thread_pool_size=16)", "par_mwpf(c=1000,p=4,thread_pool_size=16)"]
 
 p_d_vec = [
     ("0.48", [3, 5, 7, 9]),
@@ -47,14 +47,10 @@ def main(*, target_precision: float = 0.04):
         noise=noise_vec,
         decoder=decoder_vec,
         target_precision=target_precision,
-        local_maximum_jobs=2,
         max_shots=10_000_000,
+        local_maximum_jobs=local_maximum_jobs - 1,
         high_pL_threshold=1.0,  # special for biased-Y where the threshold is close to 50%
-        slurm_maximum_jobs=5,
-        slurm_cores_per_node=32,
-        slurm_processes_per_node=1,
-        slurm_mem_per_job=0.5,
-        slurm_extra=dict(walltime="1-00:00:00", queue="day"),
+        slurm_cores_per_node=4,
     )
 
 

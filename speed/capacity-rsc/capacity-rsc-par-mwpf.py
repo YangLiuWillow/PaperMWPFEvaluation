@@ -27,8 +27,8 @@ for c in c_vec:
 # decoder_vec.append("fb")
 
 # add par-mwpf decoders with different partition counts
-decoder_vec.append("par_mwpf(c=0)")
-decoder_vec.append("par_mwpf(c=0,p=2)")
+decoder_vec.append("par_mwpf(c=0,thread_pool_size=16)")
+decoder_vec.append("par_mwpf(c=0,p=2,thread_pool_size=16)")
 # decoder_vec.append("par_mwpf(c=50)")
 # decoder_vec.append("par_mwpf(c=50,p=4)")
 # decoder_vec.append("par_mwpf(c=200)")
