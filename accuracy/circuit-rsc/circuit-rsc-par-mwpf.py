@@ -50,7 +50,7 @@ def main(*, target_precision: float = 1.0, slurm_maximum_jobs: int = 100):
         max_shots=10_000_000,
         local_maximum_jobs=local_maximum_jobs - 1,
         high_pL_threshold=0.1,
-        slurm_cores_per_node=4,
+        slurm_cores_per_node=2,
     )
 
 
