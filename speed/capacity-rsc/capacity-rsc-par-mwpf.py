@@ -10,7 +10,7 @@ local_cpu_count: int = multiprocessing.cpu_count()
 
 noise_vec: list[str] = ["depolarize(p=0.001)"]
 # start with large d to minimize cold start scheduling problem for very small d
-d_vec = list(reversed([3]))
+d_vec = list(reversed([9]))
 # d_vec = list(reversed([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99]))
 code_vec: list[str] = [f"css_rsc(d={d})" for d in d_vec]
 
@@ -26,9 +26,10 @@ for c in c_vec:
 # decoder_vec.append("fb(max_tree_size=0)")
 # decoder_vec.append("fb")
 
-# add par-mwpf decoders with different partition counts
-decoder_vec.append("par_mwpf(c=0,thread_pool_size=16)")
-decoder_vec.append("par_mwpf(c=0,p=2,thread_pool_size=16)")
+# add par-mwpf decoders with fixed p=2, varying thread_pool_size
+for t in [1, 2, 4, 8, 16, 32]:
+    decoder_vec.append(f"par_mwpf(c=0,p=4,thread_pool_size={t})")
+
 # decoder_vec.append("par_mwpf(c=50)")
 # decoder_vec.append("par_mwpf(c=50,p=4)")
 # decoder_vec.append("par_mwpf(c=200)")
@@ -55,6 +56,8 @@ def main(
         min_time=min_time,
         local_maximum_jobs=local_cpu_count - 2,
         repeats=5,
+        slurm_cores_per_node=32,
+        slurm_processes_per_node=1,
     )
 
 
