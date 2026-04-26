@@ -11,7 +11,7 @@ local_cpu_count: int = multiprocessing.cpu_count()
 noise_vec: list[str] = ["depolarize(p=0.01)"]
 # start with large d to minimize cold start scheduling problem for very small d
 d_vec = list(reversed([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99]))
-code_vec: list[str] = [f"css_rsc(d={d})" for d in d_vec]
+code_vec: list[str] = [f"css_color(d={d},color=1)" for d in d_vec]
 
 decoder_vec = []
 
@@ -27,7 +27,7 @@ for c in [0, 50]:
 @arguably.command
 def main(
     *,
-    min_shots: int = 1_000_000,
+    min_shots: int = 300_000,
     max_shots: int = 1000_000_000,
     min_time: float = 0,
 ):

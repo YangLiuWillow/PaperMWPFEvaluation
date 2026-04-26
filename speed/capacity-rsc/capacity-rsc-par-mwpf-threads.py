@@ -9,19 +9,18 @@ notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 local_cpu_count: int = multiprocessing.cpu_count()
 
 noise_vec: list[str] = ["depolarize(p=0.01)"]
-# start with large d to minimize cold start scheduling problem for very small d
-d_vec = list(reversed([3, 5, 7, 9, 13, 15, 19, 23, 27, 35, 43, 53, 65, 81, 99]))
+# use large d where parallelism is meaningful
+d_vec = list(reversed([43, 65]))
 code_vec: list[str] = [f"css_rsc(d={d})" for d in d_vec]
 
 decoder_vec = []
 
-# serial mwpf baselines
-for c in [0, 50]:
-    decoder_vec.append(f"mwpf(c={c})")
+# serial mwpf baseline
+decoder_vec.append("mwpf(c=0)")
 
-# parallel mwpf decoders with fixed p=4, thread_pool_size=16
-for c in [0, 50]:
-    decoder_vec.append(f"par_mwpf(c={c},p=4,thread_pool_size=16)")
+# parallel mwpf with fixed p=4, varying thread_pool_size
+for t in [1, 2, 4, 8, 16, 32]:
+    decoder_vec.append(f"par_mwpf(c=0,p=4,thread_pool_size={t})")
 
 
 @arguably.command
