@@ -47,6 +47,10 @@ def main(
         repeats=5,
         slurm_cores_per_node=32,
         slurm_processes_per_node=1,
+        slurm_extra=dict(
+            walltime="10:00:00",
+            queue="day",
+        ),
     )
 
 
