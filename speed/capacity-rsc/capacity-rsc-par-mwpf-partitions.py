@@ -8,28 +8,27 @@ notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 
 local_cpu_count: int = multiprocessing.cpu_count()
 
-noise_vec: list[str] = ["none"]
-# start with large d to minimize cold start scheduling problem for very small d
-d_vec = list(reversed(range(3, 31 + 1, 2)))
-code_vec: list[str] = [f"rsc(d={d},p=0.001)" for d in d_vec]
+noise_vec: list[str] = ["depolarize(p=0.01)"]
+# use large d where spatial partitioning tradeoff is meaningful
+d_vec = list(reversed([43, 65]))
+code_vec: list[str] = [f"css_rsc(d={d})" for d in d_vec]
 
 decoder_vec = []
 
-# serial mwpf baselines
-for c in [0, 50]:
-    decoder_vec.append(f"mwpf(c={c})")
+# serial mwpf baseline
+decoder_vec.append("mwpf(c=0)")
 
-# parallel mwpf decoders with fixed p=4, thread_pool_size=16
-for c in [0, 50]:
-    decoder_vec.append(f"par_mwpf(c={c},p=4,thread_pool_size=16)")
+# parallel mwpf with fixed thread_pool_size=32, varying partition count
+for p in [2, 4, 8, 16]:
+    decoder_vec.append(f"par_mwpf(c=0,p={p},thread_pool_size=32)")
 
 
 @arguably.command
 def main(
     *,
-    min_shots: int = 10000,
+    min_shots: int = 1_000_000,
     max_shots: int = 1000_000_000,
-    min_time: float = 1,
+    min_time: float = 0,
 ):
     from qec_lego_bench.notebooks.speed_scaling import (
         notebook_speed_scaling,
