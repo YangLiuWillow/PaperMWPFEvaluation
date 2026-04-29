@@ -1,0 +1,14 @@
+{
+  "40d60d4599861a6ddf53624091c3a197f4a134e308f4a9c511d72bd13490dd1924ebdafc42fb19a12c8bf6dbfd7722fdbdb40b32053b39d1a72cc97c94d10264": {
+    "args": [],
+    "kwargs": {
+      "code": "rsc(d=3,p=0.02)",
+      "noise": "none"
+    },
+    "result": null,
+    "shots": 0,
+    "duration": 0,
+    "min_time": null,
+    "finished_tasks": 0
+  }
+}

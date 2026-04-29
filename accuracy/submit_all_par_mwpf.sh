@@ -13,10 +13,10 @@ submit() {
     sbatch <<EOF
 #!/bin/bash
 #SBATCH --job-name=${name}
-#SBATCH --time=10:00:00
+#SBATCH --time=48:30:00
 #SBATCH --mem=1G
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=day
+#SBATCH --partition=week
 #SBATCH --output=${dir}/slurm_job/${name}-%j.log
 #SBATCH --error=${dir}/slurm_job/${name}-%j.err
 
@@ -34,9 +34,9 @@ EOF
 
 # capacity-level noise models
 submit "par-mwpf-depolarize" "${SCRIPT_DIR}/capacity-rsc/capacity-rsc-par-mwpf.py"
-submit "par-mwpf-bias-x"    "${SCRIPT_DIR}/capacity-rsc/capacity-rsc-bias-x-par-mwpf.py"
-submit "par-mwpf-bias-y"    "${SCRIPT_DIR}/capacity-rsc/capacity-rsc-bias-y-par-mwpf.py"
-submit "par-mwpf-bias-y100" "${SCRIPT_DIR}/capacity-rsc/capacity-rsc-bias-y-eta100-par-mwpf.py"
+# submit "par-mwpf-bias-x"    "${SCRIPT_DIR}/capacity-rsc/capacity-rsc-bias-x-par-mwpf.py"
+# submit "par-mwpf-bias-y"    "${SCRIPT_DIR}/capacity-rsc/capacity-rsc-bias-y-par-mwpf.py"
+# submit "par-mwpf-bias-y100" "${SCRIPT_DIR}/capacity-rsc/capacity-rsc-bias-y-eta100-par-mwpf.py"
 
 # circuit-level noise
-submit "par-mwpf-circuit"   "${SCRIPT_DIR}/circuit-rsc/circuit-rsc-par-mwpf.py"
+# submit "par-mwpf-circuit"   "${SCRIPT_DIR}/circuit-rsc/circuit-rsc-par-mwpf.py"

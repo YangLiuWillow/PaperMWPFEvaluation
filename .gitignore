@@ -1,1 +1,6 @@
 tmp_*
+.ipynb_checkpoints/                                                                            
+slurm_job/      
+slurm-*.out
+
+

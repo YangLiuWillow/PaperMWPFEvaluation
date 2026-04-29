@@ -11,7 +11,7 @@ notebook_filepath = os.path.abspath(__file__)[:-3] + ".ipynb"
 # original decoders for comparison
 # decoder_vec = ["fb(max_tree_size=0)", "fb", "mwpf(c=0)", "mwpf(c=50)"]
 # add par-mwpf decoders with different partition counts
-decoder_vec = ["mwpf(c=0)", "par_mwpf(c=0,thread_pool_size=16)", "par_mwpf(c=50,thread_pool_size=16)", "par_mwpf(c=50,p=4,thread_pool_size=16)"]
+decoder_vec = ["mwpf(c=0)", "par_mwpf(c=0,thread_pool_size=8)", "par_mwpf(c=50,thread_pool_size=8)", "par_mwpf(c=50,p=4,thread_pool_size=8)"]
 
 # p_d_vec = [
 #     # ("0.4", [3]),
