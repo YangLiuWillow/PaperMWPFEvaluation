@@ -1198,31 +1198,31 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 2,
+          "errors": 9,
           "discards": 0,
-          "elapsed": 0.05903171275480909
+          "elapsed": 0.09758935719156586
         },
         "par_mwpf(c=0,thread_pool_size=8)": {
-          "errors": 4,
+          "errors": 12,
           "discards": 0,
-          "elapsed": 2.203328490914031
+          "elapsed": 4.166824450681305
         },
         "par_mwpf(c=50,thread_pool_size=8)": {
-          "errors": 16,
+          "errors": 26,
           "discards": 0,
-          "elapsed": 10.344324330575871
+          "elapsed": 18.040056178805834
         },
         "par_mwpf(c=50,p=4,thread_pool_size=8)": {
-          "errors": 15,
+          "errors": 33,
           "discards": 0,
-          "elapsed": 43.914696723168646
+          "elapsed": 92.75322249223584
         }
       }
     },
-    "shots": 64,
-    "duration": 165.36860588000008,
+    "shots": 128,
+    "duration": 237.70782403400005,
     "min_time": 6.284391517000003,
-    "finished_tasks": 7
+    "finished_tasks": 8
   },
   "47245561b57013fff4f42e85b05b684e2ac5921647a7ac25c2ce6c390feca9178eed9dbc7e4459fad84c41316bc4cf26d37967569003780c794c2fef5cd7baf4": {
     "args": [],
@@ -1303,31 +1303,31 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 5,
+          "errors": 32,
           "discards": 0,
-          "elapsed": 0.014652665528767784
+          "elapsed": 0.03966412604630536
         },
         "par_mwpf(c=0,thread_pool_size=8)": {
-          "errors": 6,
+          "errors": 31,
           "discards": 0,
-          "elapsed": 0.11981605758190109
+          "elapsed": 0.49075555452937336
         },
         "par_mwpf(c=50,thread_pool_size=8)": {
-          "errors": 4,
+          "errors": 38,
           "discards": 0,
-          "elapsed": 0.5629607348137855
+          "elapsed": 2.6246924165638497
         },
         "par_mwpf(c=50,p=4,thread_pool_size=8)": {
-          "errors": 4,
+          "errors": 38,
           "discards": 0,
-          "elapsed": 0.5647067747624015
+          "elapsed": 2.632426218749054
         }
       }
     },
-    "shots": 128,
-    "duration": 2.1653618839999607,
+    "shots": 512,
+    "duration": 6.259321207999964,
     "min_time": 0.13614048499999853,
-    "finished_tasks": 8
+    "finished_tasks": 10
   },
   "024819038dc0aa69b5090d3aeba787c3ab81d54bf4a9a847c503c2049feb70917b4a9cb2b8ec6b1c486915ee57f4b77f06bb74ebc41b946e559f27f5dc46e73d": {
     "args": [],
@@ -1758,31 +1758,31 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 10,
-          "discards": 0,
-          "elapsed": 0.13147737639852242
-        },
-        "par_mwpf(c=0,thread_pool_size=8)": {
           "errors": 18,
           "discards": 0,
-          "elapsed": 2.8002780044229825
+          "elapsed": 0.24236903215361988
+        },
+        "par_mwpf(c=0,thread_pool_size=8)": {
+          "errors": 26,
+          "discards": 0,
+          "elapsed": 6.715495963918797
         },
         "par_mwpf(c=50,thread_pool_size=8)": {
-          "errors": 12,
+          "errors": 22,
           "discards": 0,
-          "elapsed": 9.279019231442447
+          "elapsed": 20.64794649580631
         },
         "par_mwpf(c=50,p=4,thread_pool_size=8)": {
-          "errors": 24,
+          "errors": 56,
           "discards": 0,
-          "elapsed": 11.699561656569394
+          "elapsed": 30.91596734083291
         }
       }
     },
-    "shots": 2000,
-    "duration": 23.2730745860001,
+    "shots": 4000,
+    "duration": 54.1995903940001,
     "min_time": 0.25655937600000556,
-    "finished_tasks": 10
+    "finished_tasks": 11
   },
   "337ea330810430e8ffc986174138c60db797e295b06fa0f3f3ae78ef6ecd9fbf7b615021f2689723a1cf2730115dcf50a4a882ceb4848e320a394d32be1d19d1": {
     "args": [],
@@ -1863,31 +1863,31 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 2,
+          "errors": 5,
           "discards": 0,
-          "elapsed": 1.7652930843231731
+          "elapsed": 3.7756847111433145
         },
         "par_mwpf(c=0,thread_pool_size=8)": {
-          "errors": 43,
+          "errors": 84,
           "discards": 0,
-          "elapsed": 451.8497868961524
+          "elapsed": 892.1453396705923
         },
         "par_mwpf(c=50,thread_pool_size=8)": {
-          "errors": 72,
+          "errors": 132,
           "discards": 0,
-          "elapsed": 567.1859505390239
+          "elapsed": 1169.7652290957228
         },
         "par_mwpf(c=50,p=4,thread_pool_size=8)": {
-          "errors": 242,
+          "errors": 508,
           "discards": 0,
-          "elapsed": 2006.5150902940757
+          "elapsed": 4098.926254568707
         }
       }
     },
-    "shots": 8436,
-    "duration": 3032.11036387,
+    "shots": 17862,
+    "duration": 6125.9027625829995,
     "min_time": 1.0343777880000005,
-    "finished_tasks": 30
+    "finished_tasks": 49
   },
   "b979af7f1b6f5a4d6ac4e7774d061c471e663cf421223b92e427eb235a745711a2c67e18b993f5bb98009b4b19a35fdf9e093815307e92232b859105a387332e": {
     "args": [],
@@ -2003,31 +2003,31 @@
     "result": {
       "results": {
         "mwpf(c=0)": {
-          "errors": 0,
-          "discards": 0,
-          "elapsed": 0.3648444535309774
-        },
-        "par_mwpf(c=0,thread_pool_size=8)": {
           "errors": 1,
           "discards": 0,
-          "elapsed": 13.404721894483865
+          "elapsed": 0.6976775750899815
+        },
+        "par_mwpf(c=0,thread_pool_size=8)": {
+          "errors": 3,
+          "discards": 0,
+          "elapsed": 37.332100258552806
         },
         "par_mwpf(c=50,thread_pool_size=8)": {
-          "errors": 2,
+          "errors": 6,
           "discards": 0,
-          "elapsed": 22.13596345711505
+          "elapsed": 57.485193639413154
         },
         "par_mwpf(c=50,p=4,thread_pool_size=8)": {
-          "errors": 17,
+          "errors": 36,
           "discards": 0,
-          "elapsed": 81.88670799894288
+          "elapsed": 280.317975853431
         }
       }
     },
-    "shots": 8000,
-    "duration": 107.96897709600002,
+    "shots": 16000,
+    "duration": 343.34305137200005,
     "min_time": 0.4530866710000012,
-    "finished_tasks": 12
+    "finished_tasks": 13
   },
   "7c52698bfe347aa48c840f5effd40d68cec4ad553a4458ac062960e3b958ec3e43d584e9d5acf6aa6a8978fc071e561e09d8a4f0446813a676050978d4b8d626": {
     "args": [],
@@ -2040,29 +2040,29 @@
         "mwpf(c=0)": {
           "errors": 0,
           "discards": 0,
-          "elapsed": 2.2063910601501457
+          "elapsed": 6.499884041582372
         },
         "par_mwpf(c=0,thread_pool_size=8)": {
-          "errors": 8,
+          "errors": 32,
           "discards": 0,
-          "elapsed": 147.84339813142145
+          "elapsed": 513.2095214896215
         },
         "par_mwpf(c=50,thread_pool_size=8)": {
-          "errors": 9,
+          "errors": 36,
           "discards": 0,
-          "elapsed": 198.83308612153877
+          "elapsed": 659.0560777510068
         },
         "par_mwpf(c=50,p=4,thread_pool_size=8)": {
-          "errors": 98,
+          "errors": 277,
           "discards": 0,
-          "elapsed": 829.5011617741188
+          "elapsed": 2679.450731467112
         }
       }
     },
-    "shots": 36000,
-    "duration": 1103.8813377019997,
+    "shots": 108002,
+    "duration": 3599.4275332359994,
     "min_time": 0.635614799999999,
-    "finished_tasks": 19
+    "finished_tasks": 33
   },
   "bedb2dab1e98f9fe0906254ec7ea5aa67a21750b5f0ab2747601a474b2d4733dd6c872ca4f8d5de34c40c7031e0c91045209595db1c84a43f2d0d834c9f29d2e": {
     "args": [],
